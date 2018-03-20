@@ -1,0 +1,37 @@
+BEGIN {
+ nb1=1
+ val1[1]="hhhhh"
+     }
+{
+ nb2=0
+ for (i=1;i<=NF;i++)
+ {
+  nb2++
+  val2[nb2]=$i
+ } 
+ if (nb1==nb2)
+ {
+  double=1
+  for (i=1;i<nb1;i++)
+  {
+   if ((match(val1[i],val2[i])!=1 && match(val2[i],val1[i])!=1)   ) double =0
+  }
+  if (double==1)
+  {
+   print $NF, " ",val1[NF]
+  }
+  else
+  {
+   for (i=1;i<=nb2;i++) val1[i]=val2[i]
+  }
+ }
+ else
+ {
+  nb1=nb2
+  for (i=1;i<=nb2;i++) val1[i]=val2[i]
+ }
+}
+  
+
+
+

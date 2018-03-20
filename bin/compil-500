@@ -1,0 +1,14 @@
+rm /home/bernard/compil/*
+cd /home/bernard/include
+cp spec-500.h specification.h
+cp spec-502.h specification2.h
+cd /home/bernard/sources
+make
+cd /home/bernard/Tao/sources
+cp Make-500 Makefile
+make
+cd /home/bernard
+cp compil/* bin-500
+tar -cvf bin-500.tar bin-500
+gzip bin-500.tar
+echo "compilation -500"

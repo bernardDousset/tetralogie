@@ -1,0 +1,4 @@
+cd $1;
+rm -f *% *~  core *.hash  *.HACH *.hash2 *.HACH2
+
+echo " Fin nettoyage ";

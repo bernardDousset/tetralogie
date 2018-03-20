@@ -1,0 +1,19 @@
+Copyright
+# Descripteur de la base CHEMICAL ABSTRACT SERVICE #
+# nom           abrev    champs            visible    separateurs #
+Copyright       CO       Copyright         False      "
+Numero          NO       AN                False      "
+Titre           TI       TI                True       .",";":"b"(")"["]"/"
+Auteur_L        AL       BI                True       ;"(")"
+Auteur_c        AC       BI                True       ;"(")"
+Pays            PA       DESIGNATED        False      :","(")"
+Resume          AB       AB                True       .",":";"?"/"(")"!"b"["]"  
+Mot_cles        MH       KW                True       ;","    
+Index_term      IN       IN                True       ;","."(")"
+Coden           CO       CODEN:            False      :"."
+Document_type   DT       DOCUMENT          True       :"(")"
+ISSN            IS       ISSN:             False      :"."
+Class           CL       CLASS:            False      :"."      
+Application     AP       APPLICATION:      False      :"."
+Priority        PR       PRIORITY:         False      :"."
+FIN             FIN      FIN               FIN        "     

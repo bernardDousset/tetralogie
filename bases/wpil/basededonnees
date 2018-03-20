@@ -1,0 +1,21 @@
+L2:
+# descripteur des champs de la base WPIDS (Display Brief) #
+# nom           abrev   champ       visible  Separateurs  #
+L2               L2      L2:         False   "
+Date             DT      AN:         True    -"
+Access_Number    An      AN:         True    W"
+DNN/DNC          DN      DN:         False   b"
+Annee_DN         AN      DN:         True    C"-"
+Titre            TI      TI:         True    s."s;"s:"s,"sb"s'"s)"s?"s|".";":","b"'"(")"["]"
+Derwent_Class    DC      DC:         True    b"
+Cross_Reference  CR      CR:         True    ;"
+Patent_Assignee  PA      PA:         True    ;")"
+Resume           AB      AB:         True    s."s;"s:"s,"sb"s'"s)"s?"s|".";":","b"'"["]"
+Resume_SO        SO      AB:         True    s."s;"s:"s,"sb"s'"s)"s?"s|".";":","b"'"["]"
+Pays             AP      AB:         True    b"0"1"2"3"4"5"6"7"8"9"ORD1"
+Use/Adv          UA      UA:         True    s."s;"s:"s,"sb"s'"s)"s?"s|";":","b"'"(")"["]"
+MTM              MTM     MTM:        True    b"
+Use/Adv/MTM      UAm     MTM:_UA     True    b"
+Dwg              Dwg     Dwg.0/0     False   "
+Synonymes        SO      SO:         True    "
+FIN              FIN     FIN         FIN     "

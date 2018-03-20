@@ -1,0 +1,22 @@
+Vide 
+# descripteurs des champ #
+# nom         abrev      champ       visible     Separateurs  #
+NO              NO    NO              False  "
+Domaine         DO    DO              True   "
+Titre           TI    TI              True   .",";":"b"(")"["]"
+Source          SO    SO              True   ,";"
+Type_Doc        TD    DT              True   ;"
+Date_pub        DP    DP              True   b":"
+CH              CH    CH              False  "
+CC              CC    CC              False  "
+Pays            PA    SO              True   ;"
+Langue          LA    LA              True   b";"
+Descript_fr     FD    FD              True   ;"
+Descript_an     ED    ED              False  ;"
+Glossaire_fr    FG    FG              True   ;"
+Glossaire_an    EG    EG              False  ;"
+Auteur_lg       AL    AU              True   ;"
+Auteur_cl       AC    AU              True   ;"
+Resume          AB    AB              True   .",";":"b"(")"["]"'"sb"s."s,"s:"s;"
+LO              LO    LO              False  "
+FIN             FIN   FIN             FIN    :"

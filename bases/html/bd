@@ -1,0 +1,5 @@
+vide
+# descripteurs des champs du format issu de Html2txt #
+# nom       abrev champ         visible Separateurs  #
+Champs       CH    CH:           True    b"
+FIN          FIN   FIN           FIN     "

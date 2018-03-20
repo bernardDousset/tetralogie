@@ -1,0 +1,138 @@
+#!/usr/bin/perl5.6.1 -w
+
+
+require HTML::TokeParser;
+require HTML::Filter;
+
+if (!open(IN, "$ARGV[0]")) {
+  print " Erreur d'ouverture de $ARGV[0] \n"; 
+  exit(0);
+}
+
+if (!open(OUT, ">$ARGV[1]")){
+  print " Erreur d'ouverture de $ARGV[1] \n";
+  exit(0);
+}
+
+@bannieres = @ARGV;
+
+shift @bannieres;
+shift @bannieres;
+
+print OUT "\nNOTICE-\n"; # separateur de notices 
+
+#$NomFichier = $ARGV[0];
+
+$p = HTML::TokeParser->new("$ARGV[0]") || die "Can't open: $!";
+
+&parse_meta_tags;          # lecture des META TAGS.
+&parse_document($ARGV[0]); # lecture du corps du documents.
+#&parse_hyperlinks;         # lecture des hyperliens dans le document
+#&parse_Email;              # lecture des adresses mail dans document
+
+
+sub parse_meta_tags {
+  
+  &parse_title;            # lecture du Titre du document.
+  &parse_meta_keywords;    # lecture des Mots Cles du document.
+  &parse_meta_description; # lecture de la description du document.
+  &parse_author;           # lecture de l'auteur du document.
+  &parse_date;             # lecture de la date du document.
+  
+  &ignore_script;          # ignorer les scripts (Javascript).
+  
+}
+
+sub parse_document() {
+  my ($token, $token2);
+  
+  print OUT "\n\n$bannieres[0]: " ;
+  foreach $banniere (@bannieres) {
+    local $p=HTML::TokeParser->new("$ARGV[0]");    
+    $banniere =~ tr/[A-Z]*/[a-z]*/;
+    
+    if ($token = $p->get_tag("$bannieres[1]")) {
+      local $p2=HTML::TokeParser->new("$ARGV[0]");  
+      while ( $token2 = $p2->get_tag("$banniere")) {
+	local $Data = $p2->get_text("/$banniere");
+	$Data=~ s/^\n//;
+	print OUT  $Data;
+      }
+    }  
+  }
+}
+
+
+sub Complement_balise {
+  local $Compl;
+  local @params = @_;
+
+  foreach $balise (@params) {
+    local $p=HTML::TokeParser->new("$ARGV[0]"); 
+    while ( $p->get_tag("$balise")) {
+      $Compl .= $p->get_text("/$balise").". ";     
+    }
+  }
+  return($Compl);
+}
+
+sub parse_title {
+  my $ticomp;  
+
+  if ($p->get_tag("title")) {
+    local $title = $p->get_trimmed_text;   
+    print OUT "\n\nTI: $title"; 
+  } 
+  $ticomp = Complement_balise(h1, h2, h3);
+  if ($ticomp) {
+    print OUT "\n\nHI: $ticomp";
+  }
+}
+
+sub parse_meta_keywords {
+  my $mccomp;
+  my $p = HTML::TokeParser->new("$ARGV[0]");
+  while (my  $token=$p->get_tag("meta")) { 
+    if ($token->[1]{name} =~ /keywords/i) { 
+      print OUT "\n\nMC: $token->[1]{content}";  
+    }
+  }
+}
+
+sub parse_meta_description {
+  my $p = HTML::TokeParser->new("$ARGV[0]");
+  while (my $token=$p->get_tag("meta")) {
+    if ($token->[1]{name} =~ /description/i) {
+      print  OUT "\n\nAB: $token->[1]{content}";  
+    }
+  }
+}
+sub parse_author{
+  my $token=$p->get_tag("meta"); 
+  if ($token->[1]{name} =~ /author/i) {
+      print  OUT "\nAU: $token->[1]{content}"; 
+    }
+}
+
+sub parse_date{
+  my $p = HTML::TokeParser->new("$ARGV[0]");
+  while ( my $token=$p->get_tag("meta")) { 
+    if ($token->[1]{name} =~ /date/i) {
+      print  OUT "\nDT: $token->[1]{content}"; 
+    }
+  }
+}
+
+sub ignore_script{
+  local $p=HTML::TokeParser->new("$ARGV[0]");
+  while (  my $token = $p->get_tag("script")){
+    my $Text = $p->get_text("</script>");  
+  } 
+}
+
+close(IN);
+close(OUT);
+
+
+
+

@@ -1,0 +1,5 @@
+sed "s/LP-/AB-/g" log.not > aux1
+sed "s/PD-/SO-/g" aux1 > aux2
+sed "s/PY-/SO-/g" aux2 > log.not
+rm aux1
+rm aux2

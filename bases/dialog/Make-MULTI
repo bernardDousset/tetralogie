@@ -1,0 +1,17 @@
+grep - TI1.ind > TI1-
+grep - TI2.ind > TI2-
+grep - AB.ind > AB-
+grep - TX.ind > TX-
+cat TI1- TI2- AB- TX- > Mots-
+cat CO.ind IN.ind PC.ind CT.ind GC.ind DE.ind Mots- > Mots-cles
+sed "s/-/ /g" Mots-cles > Mots-comp
+sort -u Mots-comp > Uniques
+awk '{if (NF>1) print}' Uniques > MULTI
+rm Mots-
+rm Mots-cles
+rm Mots-comp
+rm Uniques
+rm TI1-
+rm TI2-
+rm AB-
+rm TX-

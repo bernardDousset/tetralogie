@@ -1,0 +1,32 @@
+#!/bin/sh
+# Convertir une liste de documents HTML en documents Texte issus de plusieurs Repertoire.
+
+
+# verifie si le corpus existe deja
+if [ -f $TETRALOGIEHOME/donnees/$1/$1.not ]
+  then echo " le corpus  $1.not existait déjà";
+       echo >  $TETRALOGIEHOME/donnees/$1/$1.not
+fi
+
+cd $TETRALOGIEHOME/URL/$1;
+echo "Début du traitement du $TETRALOGIEHOME/URL/$1";
+
+
+ls | tr -s " " "\012" | while read RepCourant
+			do
+			   echo "  ";
+			   echo "Traitement du sous répertoire $RepCourant";
+			   echo "  ";
+			   cd $RepCourant;
+
+			   ls|tr -s " " "\012"  | while read fich
+						     do
+				        	     Extract.pl $fich  $fich.txt 2>>/dev/null
+
+# Pour une application directe dans Tetralogie, decommenter les 2 lignes
+ 				    			     cat $fich.txt >> $TETRALOGIEHOME/donnees/$1/$1.not  2>>/dev/null
+ 				    			     rm $fich.txt 2>>/dev/null
+ 				 			     done
+			   cd ..;
+			done
+echo "Fin";

@@ -1,0 +1,3 @@
+grep HTTP AD.not > AD
+sed "s/HTTP:/HTTP: /g" AD > AD.not
+rm AD

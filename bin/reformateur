@@ -1,0 +1,70 @@
+#!/usr/bin/perl5.6.1 -w
+
+############################################################################################
+# Reformateur.pl : reformate les documents HTML d'un repertoire donné.
+#
+# Pour chaque document HTML du repertoire $repertoire_documents_html 
+# on construira un fichier texte $file.Ref dans $repertoire_documents_html_Reformates
+#
+# Usage : Reformateur.pl <rep_documents_html> <rep_documents_html_Reformates>
+# 
+#############################################################################################
+
+$dd = '/';  # directory delimiter;
+
+unless (@ARGV == 2) { die "usage : $0 <rep_documents_html> <rep_application_tetra> \n";}
+
+if (! opendir(DIR1, "$ARGV[0]") ) {
+  print " Erreur d'ouverture de $ARGV[0] :  Répertoire des Documents Html à Reformater \n"; 
+  exit(0);
+}
+if (! opendir(DIR2, "$ARGV[1]") ){
+  print " Erreur d'ouverture de $ARGV[1] : Répertoire de l'application Tétralogie \n";
+  exit(0);
+}
+
+
+#print "1- Lecture du repertoire $ARGV[0] \n";
+
+@htmlfiles = grep !/^\.\.?$/, readdir DIR1;
+
+
+##################################################################
+# vérifie si l'application ne contient pas déjà son propre corpus
+# afin  d'éviter un écrasement de celui-ci!!!!
+##################################################################
+
+#print "2- Lecture du répertoire $ARGV[1] \n";
+@Noticesfiles = grep !/^\./, readdir DIR2;
+
+$trouve = 0;
+@chemin = split('/', $ARGV[1]);
+$corpus = $chemin[$#chemin];
+
+#foreach $_ (@Noticesfiles) {
+#  if (m/$corpus\.not/) {
+#    $trouve = 1;
+#  }
+#}
+
+#if ($trouve) {
+#  print "le corpus $corpus.not était présent dans $ARGV[1],\n il vient d'etre écrasé pour une mise à jour\n\n";
+#  system("echo >$ARGV[1]${dd}$corpus.not");
+#}
+
+print " Reformatage de $ARGV[0]\n";
+foreach $file (@htmlfiles) {
+  system(" Extract.pl \"$ARGV[0]${dd}$file\" \"$ARGV[1]${dd}$file.Ref\" ");
+}
+
+foreach $file (@htmlfiles) {
+  system(" cat \"$ARGV[1]${dd}$file.Ref\" >> $ARGV[1]${dd}$corpus.not");
+}
+
+foreach $file (@htmlfiles) {
+  system(" rm \"$ARGV[1]${dd}$file.Ref\"");  
+}
+
+
+closedir(DIR1);
+closedir(DIR2);

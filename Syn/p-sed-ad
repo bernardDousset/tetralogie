@@ -1,0 +1,127 @@
+s/,/ /g
+s/\./ /g
+s/;/ /g
+s/'//g
+s/(//g
+s/)//g
+s/-/ /g
+s/<//g
+s/>//g
+s/,//g
+s/\.//g
+s/'//g
+s/(//g
+s/)//g
+s/\[//g
+s/\]//g
+s/0//g
+s/1//g
+s/2//g
+s/3//g
+s/4//g
+s/5//g
+s/6//g
+s/7//g
+s/8//g
+s/9//g
+s/-/ /g
+s/ A / /g
+s/ B / /g
+s/ C / /g
+s/ D / /g
+s/ E / /g
+s/ F / /g
+s/ G / /g
+s/ H / /g
+s/ I / /g
+s/ K / /g
+s/ L / /g
+s/ M / /g
+s/ N / /g
+s/ O / /g
+s/ P / /g
+s/ Q / /g
+s/ R / /g
+s/ S / /g
+s/ T / /g
+s/ U / /g
+s/ V / /g
+s/ W / /g
+s/ X / /g
+s/ Y / /g
+s/ a / /g
+s/ b / /g
+s/ c / /g
+s/ d / /g
+s/ e / /g
+s/ f / /g
+s/ g / /g
+s/ h / /g
+s/ i / /g
+s/ j / /g
+s/ k / /g
+s/ l / /g
+s/ m / /g
+s/ n / /g
+s/ o / /g
+s/ p / /g
+s/ q / /g
+s/ r / /g
+s/ s / /g
+s/ t / /g
+s/ u / /g
+s/ v / /g
+s/ w / /g
+s/ x / /g
+s/ y / /g
+s/ z / /g
+s/ IN / /g
+s/ ON / /g
+s/ AND / /g
+s/ & / /g
+s/ THE / /g
+s/ OF / /g
+s/ DE / /g
+s/ DI / /g
+s/ DU / /g
+s/ LE / /g
+s/ LA / /g
+s/ LES / /g
+s/ DES / /g
+s/ UND / /g
+s/ FUR / /g
+s/ FUER / /g
+s/ Y / /g
+s/ ET / /g
+s/ FOR / /g
+s/ UNIVERSITY / UNIV /g
+s/ UNIVERSITE / UNIV /g
+s/ UNIVERSITA / UNIV /g
+s/ UNIVERSITAT / UNIV /g
+s/ UNIVERSIDA / UNIV /g
+s/ UNIVERSIDAD / UNIV /g
+s/ UNIVERSITAET / UNIV /g
+s/ UNIVERSITEIT / UNIV /g
+s/ CORPORATION / CORP /g
+s/ CORPORATE / CORP /g
+s/ COMPANY / CO /g
+s/ COMPAGNIE / CO /g
+s/ INSTITUT / INST /g
+s/ INSTITUTE / INST /g
+s/ RESEARH / RES /g
+s/ RECHERCHE / RES /g
+s/ LIMITED / LTD /g
+s/ VETERINARY / VET /g
+s/ VETERINAIRE / VET /g
+s/ APPLIED / APPL /g
+s/ APPLIQUE / APPL /g
+s/ DEPARTMENT / DPT /g
+s/ DEPARTEMENT / DPT /g
+s/ LABORATORY / LAB /g
+s/ LABORATOIRE / LAB /g
+s/ HOPITAL / HOSPITAL /g
+s/ NATIONAL / NATL /g
+s/ CENTRE / CENT /g
+s/ CENTER / CENT /g
+s/ CENTRO / CENT /g
+s/ URA / CNRS /g

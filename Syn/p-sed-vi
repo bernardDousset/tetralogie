@@ -1,0 +1,14 @@
+s/-/ /g
+s/  / /g
+s/  / /g
+s/"//g
+s/\///g
+s/\.//g
+s/ST /SAINT /g
+s/STE /SAINTE /g
+s/(//g
+s/)//g
+s/<//g
+s/>//g
+
+

@@ -1,0 +1,19 @@
+Vide
+# descripteurs des champ #
+# nom      abrev champ visible Separateurs  #
+Nunero      NO    NO   False  "
+Titre_F     TF    FT   True   .",";":"b"(")"["]"b0"b1"b2"b3"b4"b5"b6"b7"b8"b9"
+Titre_A     TI    ET   True   .",";":"b"(")"["]"b0"b1"b2"b3"b4"b5"b6"b7"b8"b9"
+Mots-Clefs  MH    DE   True   ;"
+Mots-Cl94   94    DE   True   ;"
+ET_Jn       EJ    ET   True   ,"(")"
+ET_An       EA    ET   True   ,"b")"
+Source_An   SA    SO   True   DP.b"
+Langue      LG    LA   True   "
+Auteur_lg   AL    AU   True   ;"CSb"
+Auteur_cl   AC    AU   True   ;"CSb"
+Affiliation AF    AF   True   "
+Type_doc    DT    DT   True   "
+LO          LO    LO   False  "
+Resume      AB    AB   True   .",";":"b"(")"["]"sb"s."s,"s:"s;"'"
+FIN         FIN   FIN  FIN    :"

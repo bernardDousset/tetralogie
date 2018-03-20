@@ -1,0 +1,21 @@
+Record
+# descripteurs des champ de la base SCI #
+# nom           abrev    champ      visible Separateurs  #
+Multi_term       Mtm     MTM:        True    b"-"
+Multi_Term       MTM     MTM:        True    b"
+Titre            TI      Title:      True    s."s;"s:"s,"sb"s'"s)"s?"s|".";":","b"'"(")"["]"
+Titre2           T2      Title:      True    s."s;"s:"s,"sb"s'"s)"s?"s|".";":","b"'"(")"["]"
+DT               DT      Title:      True    "
+Langue           LA      Language:   True    "
+Auteur_l         AL      Authors:    True    b"\n"
+Auteur_c         AC      Authors:    True    b"\n"
+Adresse          AD      Addresses:  True    \n","."-"'"
+Pays             PA      Addresses:  True    ,"\n"
+Source  	 SO      Source:     True    19"\n"(")"
+Date_publi	 DP      Source:     True    b","\n"
+Type_Doc         TD      Document    False   "
+TGA              TG      TGA         False   "
+Citation         CT      Cited       True    \n"
+Cit_Auteur       Ca      Cited       True    19"\n"
+Science          SC      Science     False   "
+FIN              FIN     FIN         FIN     "

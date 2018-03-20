@@ -1,0 +1,26 @@
+cat AB.ind TI.ind d > TX
+grep - TX > TX-
+cat DE.ind ID.ind CC.ind TX- > TX
+SED-N TX TX-
+grep - TX- > TX
+sort -u TX > TX-
+sed "s/-/ /g" TX- > TX
+egrep -v ":" TX > TX-
+egrep -v "1" TX- > TX
+egrep -v "2" TX > TX-
+egrep -v "3" TX- > TX
+egrep -v "4" TX > TX-
+egrep -v "5" TX- > TX
+egrep -v "6" TX > TX-
+egrep -v "7" TX- > TX
+egrep -v "8" TX > TX-
+egrep -v "9" TX- > TX
+egrep -v "0" TX > TX-
+egrep -v "\(" TX- > TX
+egrep -v "<" TX > TX-
+egrep -v "\." TX- > TX
+egrep -v "," TX > TX-
+egrep -v "\(" TX- > DICO
+rm TX
+rm TX-
+

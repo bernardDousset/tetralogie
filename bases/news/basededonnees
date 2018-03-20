@@ -1,0 +1,10 @@
+Path:
+# descripteurs des champ #
+# nom      abrev champ visible Separateurs  #
+Path       PA   Path:    True   "
+Date       DT   Date:    True   "
+Texte      TX   Date:    True   b".",":";"-"+"'"(")"/"["]"#"*"$"%"<">"{"}"
+Texte_1    T1   Date:    True   b".",":";"-"+"'"(")"/"["]"#"*"$"%"<">"{"}"
+Texte-2    T2   Date:    True   b".",":";"-"+"'"(")"/"["]"#"*"$"%"<">"{"}"
+Atome      At   Date:    True   b".",":";"-"+"'"(")"/"["]"#"*"$"%"<">"{"}"
+FIN         FIN   FIN  FIN    "

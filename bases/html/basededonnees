@@ -1,0 +1,14 @@
+AD:
+# descripteurs des champs du format issu de Html2txt #
+# nom       abrev champ         visible Separateurs  #
+Adresse	     Ad    AD:           True    b"
+Site_source  SS    AD:           True    //"/"\n"
+Auteur       AU    AU:           True    ,";"
+Titre	     TI    TI:           True    b",";":"!"?"."\n"
+Sujet        SU    SU:	         True    b",";":"!"?"."\n"
+Date         DP    DP:           True    -"/"\n"
+Mot_clé      MC    MC:           True    ,";"\n"
+Texte        TX    TX:           True    b",";":"!"?"."\n"
+Url          UR    URL:          True    b#b"\n"
+Site_lien    SL    URL:          True    //"/"\n"
+FIN          FIN   FIN           FIN     "

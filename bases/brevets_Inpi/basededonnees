@@ -1,0 +1,11 @@
+Vide
+# Descripteur des champs de la base BREVET (INPI) #
+#  Nom     abrev  champ   visible separateurs  #
+TitreGB     ET     ET      True    (")"/":","."-":"b"b1"
+TitreFR     FT     FT      True    (")"/":","."-":"b"b1"l'"d'"
+Societe     SO     PA      True    '"
+Inventeur   IN     IN      True    ," 
+IC1         IC1    IC1     True    ,"b"
+IC2         IC2    IC2     True    ,"b"
+Pays        PY     DS      True    b"  		
+FIN         FIN    FIN     FIN     -"

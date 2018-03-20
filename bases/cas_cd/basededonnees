@@ -1,0 +1,16 @@
+Vide
+# descripteurs des champ #
+# nom      abrev champ visible Separateurs  #
+Numero1     FI    FN-   False  "
+Numero2     AN    AN-   False  "
+Titre       TI    TI-   True   .",";":"b"(")"["]"|"sb"s,"s."s;"s:"
+Auteur_lg   AL    AU-   True   ;"|"
+Auteur_cl   AC    AU-   True   ;"|"
+Coordonnes  CS    CS-   True   ,"|"
+Pays        PA    CS-   True   ,"|"b"
+Ville       VI    CS-   True   ,"b"|"
+Journal     JN    JN-   True   ;"|"
+Annee_pub   PY    PY-   True   ;"b"|"
+Langue      LA    LA-   True   "|"
+Resume      AB    AB-   True   .",";":"b"(")"["]"|"sb"s,"s."s;"s:"
+FIN         FIN   FIN   FIN    "

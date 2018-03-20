@@ -1,0 +1,44 @@
+#!/bin/csh
+# Convertir une liste de documents HTML en documents Texte issus de plusieurs Repertoire.
+
+# teste si html2text est bien dans l'application
+#  if [ ! -x $TETRALOGIEHOME/donnees/$1/html2text ] ;
+#  then echo  "vous ne disposiez pas d'un execuatble html2text dans $TETRALOGIEHOME/donnees/$1/";
+#       cp $TETRALOGIEBIN/bin/html2text $TETRALOGIEHOME/donnees/$1/html2text
+#       echo  "Une copie de html2text vient d'etre installée dans votre repertoire $TETRALOGIEHOME/donnees/$1";
+#      HTML2TXT=$TETRALOGIEBIN/bin/html2text;
+#  else  HTML2TXT=$TETRALOGIEHOME/donnees/$1/html2text;
+#  fi
+
+#  export HTML2TXT
+
+
+# verifie si le corpus existe deja
+if [ -f $TETRALOGIEHOME/donnees/$1/$1.not ] ;
+  then echo  "";
+       echo >  $TETRALOGIEHOME/donnees/$1/$1.not;
+fi
+
+
+
+cd $TETRALOGIEHOME/URL/$1;
+ echo "Traitement du repertoire $RepCourant";
+   
+
+ls | tr -s " " "\012" | while read RepCourant
+			do
+			   echo "  ";
+			   echo "Traitement du repertoire $RepCourant";
+			   echo "  ";
+			   cd $RepCourant;
+
+			   ls|tr -s " " "\012" | grep .htm | while read fich
+							     do
+				   			     Extract.pl $fich  $fich.txt
+
+# Pour une application directe dans Tetralogie, decommenter les 2 lignes
+ 				    			     cat $fich.txt >> $TETRALOGIEHOME/donnees/$1/$1.not
+ 				    			     rm $fich.txt
+ 				 			     done
+			   cd ..;
+			done

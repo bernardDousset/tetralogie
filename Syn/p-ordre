@@ -1,0 +1,23 @@
+{
+ for (i=1;i<=NF;i++) a[i]=$i
+ for (i=1;i<NF;i++)
+ {
+  max=a[i]
+  trouve=0
+  for(j=i+1;j<=NF;j++)
+  {
+   if(max<a[j])
+   {
+    trouve=1
+    ou=j
+    max=a[j]
+   }
+  }
+  if(trouve==1)
+  a[ou]=a[i]
+  a[i]=max
+ }
+ for (i=1;i<NF;i++)
+  printf "%-40s ",a[i]
+  print a[NF]
+}

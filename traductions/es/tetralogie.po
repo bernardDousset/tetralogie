@@ -1,0 +1,1417 @@
+domain "tetralogie.mo"
+#***************** "tetralogie" ********
+
+msgid  "Tétralogie V7.0 "
+msgstr "Tetralogie V7.es"
+msgid  "Tétralogie V7.0"
+msgstr "Tetralogie V7.es"
+
+msgid  "veuillez demander une licence à l'éditeur TMIC"
+msgstr "Tiene que pedir una licencia al editor"
+
+msgid  "La matrice n'est pas carree\n\n"
+msgstr "La matriz no es cuadrada\n\n"
+
+msgid  "Voulez-vous detruire ce Repertoire ?"
+msgstr "Quiere destruir este directorio?"
+
+msgid  "Voulez-vous detruire ce Fichier ?"
+msgstr "Quiere destruir este fichero?"
+
+msgid  "Introduire Des Remarques ?"
+msgstr "Introducir notas?"
+
+msgid  "Voulez-vous vraiment detruire?\0"
+msgstr "Quiere destruir?\0"
+
+msgid  " Conversion Terminee***** \n"
+msgstr " Conversion Terminada! \n"
+
+msgid  " Fin Compression de %s \n"
+msgstr " Fin de compresion de %s \n"
+
+msgid  " Attention!! Repertoire deja compresse \n"
+msgstr " Cuidado! Directorio ya comprimido \n"
+
+msgid  " Fin Decompression de %s\n"
+msgstr " Fin de descompresion de %s\n"
+
+msgid  " Attention!! Repertoire non compresse \n"
+msgstr " Cuidado! Directorio no comprimido \n"
+
+msgid  "Nouvelle application"
+msgstr "Nueva aplicacion"
+
+msgid  "Html2Text"
+msgstr "Html a Texto"
+
+msgid  "Ip2Domain"
+msgstr "IP a Dominio"
+
+msgid  "Quitter"
+msgstr "Salida"
+
+#***************** "menu" ********
+
+msgid  "Traitement ..."
+msgstr "Tratamientos..." 
+
+msgid  "Filtres"
+msgstr "Filtros"
+
+msgid  "Comptages"
+msgstr "Recuentos" 
+
+msgid  "Presence/Absence m.m"
+msgstr "Presencia/Ausencia m²"
+
+msgid  "Presence/Absence m.n"
+msgstr "Presencia/Ausencia m.n"
+
+msgid  "Co-occurrence 2D m.m"
+msgstr "Coocurrencias 2D m²"
+
+msgid  "Co-occurrence 2D m.n"
+msgstr "Coocurrencias 2D m.n"
+
+msgid  "Co-occurrence 3D m.m"
+msgstr "Coocurrencias 3D m²"
+
+msgid  "Co-occurrence 3D m.n"
+msgstr "Coocurrencias 3D m.n"
+
+msgid  "Synonymes"
+msgstr "Sinonimos"
+
+msgid  "Multi-Termes"
+msgstr "Multi-Terminos"
+
+#***************** "Traitements" ********
+
+msgid  "Dos2Unix"
+msgstr "Dos a Unix" 
+
+msgid  "Html2Text"
+msgstr "Html a Texto" 
+
+msgid  "Ip2Domain"
+msgstr "IP a Dominio" 
+
+msgid  "ReFormatage"
+msgstr "Reformateado"
+
+msgid  "Reformatage"
+msgstr "Reformateado"
+
+msgid  "Compression"
+msgstr "Compresion" 
+
+msgid  "Decompression"
+msgstr "Descompresion"
+
+msgid  "Nettoyage"
+msgstr "Limpieza" 
+
+msgid  "CHEMIN: \0"
+msgstr "CAMINO: \0"
+
+msgid  "allocation impossible \n"
+msgstr "Atribucion imposible \n"
+
+msgid  "%s couleur non trouvee\n"
+msgstr "%s color no encontrado\n"
+
+msgid  "couleur non trouvee\n"
+msgstr "Color no encontrado\n"
+
+msgid  "fichier inexistant\n"
+msgstr "Fichero inexistente\n"
+
+msgid  " Traitement\n"
+msgstr "Tratamiento\n"
+
+msgid  "Filtre\n"
+msgstr "Filtro\n" 
+
+msgid  "Comptage\n" 
+msgstr "Recuento\n"
+
+msgid  "Presence/Abscence\n" 
+msgstr "Presencia/Ausencia\n"
+
+msgid  " Coocurrences\n"
+msgstr "Coocurrencias 2D\n"
+
+msgid  " Coocurrences Multiples\n"
+msgstr "Coocurrencias 3D\n"
+
+msgid  " Synonymes\n"
+msgstr "Sinonimos\n"
+
+msgid  " Multi-termes\n"
+msgstr "Multi-terminos\n"
+
+msgid  "  DESOLE!!  Veuillez  Contacter l'Editeur du Logiciel. \n"
+msgstr "Tiene que contactar el editor de Tetralogie. \n"
+
+#******************* "Comptages" ********
+
+msgid  "TETRALOGIE CALCUL DES FREQUENCES Fichier notice : %s/%s"
+msgstr "TETRALOGIE CALCULO DE LAS FRECUENCIAS Fichero : %s/%s"
+
+msgid  "EXECUTER"
+msgstr "EJECUTAR"
+
+msgid  "OCCUPE"
+msgstr "OCUPADO"
+
+msgid  "QUITTER"
+msgstr "SALIDA"
+
+msgid  "Frq"
+msgstr "Frc"
+
+msgid  "Liste de mots"
+msgstr "Lista de terminos"
+
+msgid  "Charge?"
+msgstr "Carga?"
+
+#******************* "Filtres" ********
+
+msgid  "TETRALOGIE CREATION DES FILTRES"
+msgstr "TETRALOGIE CREACION DE FILTROS"
+
+msgid  "Effectif"
+msgstr "Efectivo"
+
+msgid  "Executer"
+msgstr "Ejecutar"
+
+msgid  "Quitter"
+msgstr "Salida"
+
+msgid  "Filtre 200"
+msgstr "Filtro 200"
+
+msgid  "Filtre 1000"
+msgstr "Filtro 1000"
+
+msgid  "Filtre 2000"
+msgstr "Filtro 2000"
+
+msgid  "Filtre 3000"
+msgstr "Filtro 3000"
+
+msgid  "Filtre 5000"
+msgstr "Filtro 5000"
+
+#******************* "Cooccurrences" ********
+
+msgid  "TETRALOGIE CALCUL DES COOCCURRENCES Fichier notice : / "
+msgstr "TETRALOGIE CALCULO DE LAS COOCURRENCIAS Fichero : / "
+
+msgid  "TETRALOGIE CALCUL DES COOCCURRENCES MULTIPLES Fichier notice : / "
+msgstr "TETRALOGIE CALCULO DE LAS COOCURRENCIAS MULTIPLES Fichero : / "
+
+msgid  "Filtres"
+msgstr "Filtros"
+
+msgid  "Reference"
+msgstr "Referencia"
+
+#******************* "4d" ********
+
+msgid  "Tétralogie V7.0 Vue 4D"
+msgstr "Tetralogie V7.es Vista 4D"
+
+msgid  "Tétralogie V7.0 Vue 4D Fichier : "
+msgstr "Tetralogie V7.es Vista 4D Fichero: "
+
+msgid  "NOM DU FICHIER  "
+msgstr "Nombre del fichero  "
+
+msgid  "Nombre de lignes      "
+msgstr "Numero de lineas   "
+
+msgid  "Nombre de colonnes    "
+msgstr "Numero de columnas   "
+
+msgid  "Nombre d'occurrences "
+msgstr "Numero de planos           "
+
+
+msgid  "erreur ouverture de fichier\n"
+msgstr "Error de apertura del fichero\n" 
+
+msgid  "Erreur_ouverture 00\n"
+msgstr "Error de apertura 00\n"
+
+msgid  "Erreur_ouverture 1\n"
+msgstr "Error de apertura 1\n"
+
+#***************** "Options vues 3d, 4d" ********
+
+msgid  "COULEUR"
+msgstr "Eleccion colores"
+
+msgid  "SELECTION COULEURS"
+msgstr "Eleccion colores"
+
+msgid  "GLISSEMENT AXES"
+msgstr "Cambio de ejes"
+
+msgid  "IDENTIFICATEURS"
+msgstr "Ocultar nombres"
+
+msgid  "TRAJECTOIRES"
+msgstr "Trayectorias"
+
+msgid  "REDUCTION NUAGE"
+msgstr "Ocultar centro"
+
+msgid  "REDUCTION POINT"
+msgstr "Ocultar terminos"
+
+msgid  "SELECTION AXES"
+msgstr "Seleccion ejes"
+
+msgid  "ICONES"
+msgstr "Eleccion iconos"
+
+msgid  "REDUIT POINTS"
+msgstr "Ocultar nombres"
+
+msgid  "REDUCTION DU CENTRE"
+msgstr "REDUCCION DEL CENTRO"
+
+msgid  " Continue"
+msgstr " Continuar"
+
+msgid  " OUI"
+msgstr " Si"
+
+msgid  " NON"
+msgstr " No"
+
+msgid  " Oui"
+msgstr " Si"
+
+msgid  " Non"
+msgstr " No"
+
+msgid  " Sortie"
+msgstr " Salida"
+
+msgid  "AXES VISUALISES"
+msgstr "Ejes visualizados"
+
+msgid  " Annuler"
+msgstr " Cancelar"
+
+msgid  " FIN"
+msgstr " Fin"
+
+msgid  "IDENTIFICATION "
+msgstr "Identificacion "
+
+msgid  "SELECTION      "
+msgstr "Seleccion de terminos"
+
+msgid  "RECHERCHE      "
+msgstr "Busqueda de terminos"
+
+msgid  "DOUBLES        "
+msgstr "Terminos multiples"
+
+msgid  "MULTI-SELECTION"
+msgstr "Seleccion multiple"
+
+msgid  "Le nombre d'axes doit etre = 4"
+msgstr "El numero de ejes debe ser = 4"
+
+msgid  "Le nombre d'axes doit etre = 3"
+msgstr "El numero de ejes debe ser = 3"
+
+msgid  "SELECTION MULTIPLE"
+msgstr "Seleccion multiple"
+
+msgid  "SELECTION"
+msgstr "Seleccion"
+
+msgid  "RESTE"
+msgstr "Resto"
+
+msgid  "NOTICES"
+msgstr "Documentos"
+
+msgid  "CLASSER"
+msgstr "Clasificar"
+
+msgid  "DETAIL"
+msgstr "Detallar"
+
+#***************** "import" ********
+
+msgid  "Nom de l'application"
+msgstr "Nombre de la aplicacion"
+
+msgid  "Choix des structures"
+msgstr "Eleccion de las estructuras"
+
+msgid  " Quitter"
+msgstr " Salida"
+
+msgid  "QUITTER"
+msgstr "Salida"
+
+msgid  "Repertoire  existe deja \n"
+msgstr "El directorio ya existe \n"
+
+msgid  " Le nom de l'application est Obligatoire \n"
+msgstr " El nombre de la aplicacion es obligatorio \n" 
+
+msgid  " %s%s/reformateur inexistant !!\n"
+msgstr " %s%s/Reformateador inexistente !\n"
+
+msgid  "erreur d'ouverture de %s \n"
+msgstr "Error de apertura de %s \n"
+
+msgid  " %s inexistant !!\n"
+msgstr " %s inexistente !\n"
+
+msgid  "Attention !! Application creee sans le choix de la Base\n"
+msgstr "Cuidado ! Aplicacion creada sin eleccion de la base\n"
+
+msgid  " NOUVELLE APPLICATION "
+msgstr " Nueva aplicacion "
+
+msgid  " Nouvelle Application "
+msgstr " Nueva aplicacion "
+
+#****************** "Reformatage" ********
+
+msgid  " Erreur d'ouverture du repertoire : %s \n"
+msgstr " Error de apertura del directorio : %s \n"
+
+msgid  " Erreur d'ouverture du %s \n"
+msgstr " Error de apertura de %s \n"
+
+msgid  "Indefini"
+msgstr "Indefinido"
+
+msgid  "Reformatage du"
+msgstr "Reformateado de"
+
+msgid  "TETRALOGIE Reformatage"
+msgstr "Tetralogie Reformateado"
+
+msgid  " Chaque corpus doit avoir un fichier reformateur. S'il n'est pas defini, alors il faut le creer sous le nom : /donnees/ApplicationUtilisee/reformateur.\n\n"
+msgstr " Este corpus no tiene fichero reformateador. Hay que crearlo con el nombre : /donnees/Aplicacion_utilizada/reformateador.\n\n"
+
+msgid  " Chaque corpus doit avoir un fichier reformateur, S'ils ne sont pas definis, il faut les creer sous les noms : /donnees/ApplicationUtilisee/reformateur1, 2, 3, etc.\n\n"
+msgstr " Ningun corpus tiene fichero reformateador. Puede crear uno con el nombre : /donnees/Aplicacion_utilizada/reformateador.1, .2, .3, etc.\n\n"
+
+msgid  " \n Corpus inexistant ou Repertoire compresse \n\n"
+msgstr " \n Corpus inexistente o Directorio comprimido \n\n"
+
+msgid  " \n Desole!! Corpus sans Reformateur. \n\n"
+msgstr " \n Corpus sin Reformateador. \n\n"
+
+msgid  "Aide"
+msgstr "Ayuda"
+
+msgid  "Reformater"
+msgstr "Reformatear"
+
+#***************** "fisheye" ********
+
+msgid  " Deformation d : "
+msgstr " Deformacion d : "
+
+msgid  " Coefficient c : "
+msgstr " Coeficiente c : "
+
+msgid  " Exposant   e  : "
+msgstr " Exponente  e  : "
+
+msgid  " Fichier Donnees: "
+msgstr " Fichero de datos: "
+
+msgid  " Ligne   :"
+msgstr " Linea  :"
+
+msgid  " Colonne :"
+msgstr " Columna :"
+
+msgid  " Metriques"
+msgstr " Metricos"
+
+msgid  " Niveau de Coupe"
+msgstr " Nivel de corte"
+
+msgid  "Inter-Individus"
+msgstr "Inter-individuos"
+
+msgid  "Inter-Classes"
+msgstr "Inter-clases"
+
+msgid  "Vue Normale"
+msgstr "Vista normal"
+
+msgid  "Vue de poisson"
+msgstr "Ojo de pescado"
+
+msgid  "Parametres"
+msgstr "Parametros"
+
+msgid  "Parametres Fisheye"
+msgstr "Parametros ojo de pescado"
+
+msgid  "Coupe"
+msgstr "Corte"
+
+msgid  "Mahanalobis "
+msgstr "Mahanalobis "
+
+msgid  "Euclidienne"
+msgstr "Euclidiana"
+
+msgid  "Cooccurrence"
+msgstr "Coocurrencia"
+
+
+msgid  "Usage :  fisheye  Chemin  Nom_Fichier \n"
+msgstr "Uso :  ojo pescado  camino  nombre_fichero \n"
+
+#************** "2d / 3d / anime3d / anime4d / zoom3d" ********
+
+msgid  "IMPORT"
+msgstr "Importacion"
+
+msgid  "ZOOM"
+msgstr "Zoom"
+
+msgid  "R_1_2"
+msgstr "Rotacion 1-2"
+
+msgid  "R_1_3"
+msgstr "Rotacion 1-3"
+
+msgid  "R_1_4"
+msgstr "Rotacion 1-4 "
+
+msgid  "R_2_3"
+msgstr "Rotacion 2-3 "
+
+msgid  "R_2_4"
+msgstr "Rotacion 2-4 "
+
+msgid  "R_3_4"
+msgstr "Rotacion 3-4 "
+
+msgid  "OPTIONS..."
+msgstr "Opciones..."
+
+msgid  "HISTO"
+msgstr "Historial"
+
+msgid  "EXP_RO"
+msgstr "Rotaciones ->>"
+
+msgid  "EDIT..."
+msgstr "Edicion..."
+
+msgid  "LIENS"
+msgstr "Relaciones"
+
+msgid  "EXP_CL"
+msgstr "Clases ->>"
+
+msgid  "IMPORT"
+msgstr "Importacion"
+
+msgid  "ZOOM"
+msgstr "Zoom de reduccion"
+
+msgid  "R_1_2"
+msgstr "Rotacion 1-2"
+
+msgid  "R_1_3"
+msgstr "Rotacion 1-3"
+
+msgid  "R_1_4"
+msgstr "Rotacion 1-4"
+
+msgid  "R_2_3"
+msgstr "Rotacion 2-3"
+
+msgid  "R_2_4"
+msgstr "Rotacion 2-4"
+
+msgid  "R_3_4"
+msgstr "Rotacion 3-4"
+
+msgid  "OPTIONS..."
+msgstr "Opciones..."
+
+msgid  "HISTO"
+msgstr "Historial"
+
+msgid  "EXP_RO"
+msgstr "Rotaciones..."
+
+msgid  "P_1_2"
+msgstr "Plano 1-2"
+
+msgid  "P_1_3"
+msgstr "Plano 1-3"
+
+msgid  "P_1_4"
+msgstr "Plano 1-4"
+
+msgid  "P_1_5"
+msgstr "Plano 1-5"
+
+msgid  "P_2_3"
+msgstr "Plano 2-3"
+
+msgid  "P_2_4"
+msgstr "Plano 2-4"
+
+msgid  "P_2_5"
+msgstr "Plano 2-5"
+
+msgid  "P_3_4"
+msgstr "Plano 3-4"
+
+msgid  "P_3_5"
+msgstr "Plano 3-5  "
+
+msgid  "P_4_5"
+msgstr "Plano 4-5  "
+
+msgid  "nombre d'arguments inadequat\n"
+msgstr "Numero de argumentos inadecuado\n" 
+
+msgid  "Le format du fichier est incorrect\0"
+msgstr "El formato del fichero es incorrecto\0"
+
+msgid  "Tétralogie V7.0 Vue 2D"
+msgstr "Tetralogie V7.es Vista 2D "
+
+msgid  "Tétralogie V7.0 Vue 2D Fichier : "
+msgstr "Tetralogie V7.es Vista 2D Fichero : "
+
+msgid  "Tétralogie V7.0 Vue 3D"
+msgstr "Tetralogie V7.es Vista 3D "
+
+msgid  "Tétralogie V7.0 Vue 3D Fichier : "
+msgstr "Tetralogie V7.es Vista 3D Fichero : "
+
+msgid  "Tétralogie V7.0 Animation 3D"
+msgstr "Tetralogie V7.es Animacion 3D "
+
+msgid  "Tétralogie V7.0 Animation 3D Fichier : "
+msgstr "Tetralogie V7.es Animacion 3D Fichero : "
+
+msgid  "Tétralogie V7.0 Animation 4D"
+msgstr "Tetralogie V7.es Animacion 4D "
+
+msgid  "Tétralogie V7.0 Animation 4D Fichier : "
+msgstr "Tetralogie V7.es Animacion 4D Fichero : "
+
+msgid  "Tétralogie V7.0 Matrice 3D Fichier : "
+msgstr "Tetralogie V7.es Matriz 3D Fichero : "
+
+msgid  "Sélection"
+msgstr "Seleccion"
+
+#******************* " AFC / ACP" ********
+
+msgid  "Tétralogie V7.0 AFC"
+msgstr "Tetralogie V7.es AFC"
+
+msgid  "Tétralogie V7.0 ACP"
+msgstr "Tetralogie V7.es ACP"
+
+msgid  "          Fichier             : %s\n"
+msgstr "          Fichero             : %s\n"
+
+msgid  "NOM DU FICHIER : %s\n"
+msgstr "NOMBRE DEL FICHERO : %s\n"
+
+msgid  "          Nombre d'occurrences: %d\n"
+msgstr "          Numero de ocurrencias: %d\n"
+
+msgid  "          Nombre de colonnes  : %d\n"
+msgstr "          Numero de columnas  : %d\n"
+
+msgid  "          Nombre de lignes    : %d\n"
+msgstr "          Numero de lineas    : %d\n"
+
+msgid  "          Nombre occurrences: %d\n"
+msgstr "          Numero ocurrencias: %d\n"
+
+msgid  "          Nombre colonnes  : %d\n"
+msgstr "          Numero columnas  : %d\n"
+
+msgid  "          Nombre lignes    : %d\n"
+msgstr "          Numero lineas    : %d\n"
+
+msgid  "          Occurence analysee  : %d\n"
+msgstr "          Ocurrencia analizada : %d\n"
+
+msgid  "          Occurence analysee  : Somme\n"
+msgstr "          Ocurrencia analizada : Suma\n"
+
+msgid  "          Occurence analysee  : Toutes\n"
+msgstr "          Ocurrencia analizada : Todas\n"
+
+msgid  "   No  &  Nom |  Coor1  Crel1  Cabs1 |"
+msgstr "   No  &  Nombre |  Coor1  Crel1  Cabs1 |"
+
+msgid  "  Coor2  Crel2  Cabs2 |"
+msgstr "  Coor2  Crel2  Cabs2 |"
+
+msgid  "  Coor3  Crel3  Cabs3 |"
+msgstr "  Coor3  Crel3  Cabs3 |"
+
+msgid  "  Coor4  Crel4  Cabs4 "
+msgstr "  Coor4  Crel4  Cabs4 "
+
+
+msgid  " Coordonnees, contributions relatives et absolues des individus"
+msgstr " Coordenadas, contribuciones relativas y absolutas de los individuos"
+
+msgid  " Coordonnees, contributions relatives et absolues des parametres"
+msgstr " Coordenadas, contribuciones relativas y absolutas de los parametros"
+
+msgid  " Marginal <= 0 remplace. continuer?\0"
+msgstr " Marginal <= 0 reemplazada. Continuar?\0"
+
+msgid  "ANALYSE FACTORIELLE DES CORRESPONDANCES\n\n"
+msgstr "Analisis Factorial de Correspondencias\n\n"
+
+msgid  "APRES AFC"
+msgstr "Despues AFC"
+
+msgid  "Axe%d "
+msgstr "Eje%d"
+
+msgid  "Axe1"
+msgstr "Eje1"
+
+msgid  "Axe2"
+msgstr "Eje2"
+
+msgid  "Axe3"
+msgstr "Eje3"
+
+msgid  "Axe4"
+msgstr "Eje4"
+
+msgid  "Axes"
+msgstr "Ejes"
+
+msgid  "Occurrence %d"
+msgstr "Ocurrencia %d"
+
+msgid  "Valeurs Propres"
+msgstr "Valores propios"
+
+msgid  "Vecteurs Propres"
+msgstr "Vectores propios"
+
+msgid  "cumuls"
+msgstr "Cumulos"
+
+msgid  "inerties"
+msgstr "Inercias"
+
+msgid  "valeurs"
+msgstr "Valores"
+
+msgid  " Occurrence A Analyser ?"
+msgstr " Ocurrencia a analizar ?"
+
+msgid  "VALEURS PROPRES"
+msgstr "Valores propios"
+
+msgid  "CUMULS"
+msgstr "Cumulos"
+
+msgid  "CORRELATIONS INDIVIDUS"
+msgstr "Correlaciones individuos"
+
+msgid  "CORRELATIONS VARIABLES"
+msgstr "Correlaciones variables"
+
+msgid  "DENSITES INDIVIDUS"
+msgstr "Densidades individuos"
+
+msgid  "DENSITES VARIABLES"
+msgstr "Densidades variables"
+
+msgid  "OBSERVATOIRE %s Fichier: %s"
+msgstr "OBSERVATORIO %s Fichero: %s"
+
+msgid  "DONNEES REDUITES"
+msgstr "Datos reducidos"
+
+msgid  "DONNEES"
+msgstr "Datos"
+
+msgid  "Reduction des donnees ?"
+msgstr "Reduccion de los datos ?"
+
+msgid  "Nombre de colonnes supérieur à 200"
+msgstr "Numero de columnas superior a 200"
+
+msgid  "Continue"
+msgstr "Continuar"
+
+msgid  "ANALYSE EN COMPOSANTES PRINCIPALES\n\n"
+msgstr "Analisis en Componentes Principales\n\n"
+
+msgid  "ANALYSE EN COMPOSANTES PRINCIPALES REDUITE\n\n"
+msgstr "Analisis en Componentes Principales Reducido\n\n"
+
+# **********  " CAH " ********
+
+msgid  "Tétralogie V7.0 CAH "
+msgstr "Tetralogie V7.es CAH "
+
+msgid  "Tétralogie V7.0 CAH Fichier : "
+msgstr "Tetralogie V7.es CAH Fichero : "
+
+msgid  "EUCLIDE"
+msgstr "Euclidiana"
+
+msgid  "MOYENNE"
+msgstr "Media"
+
+msgid  "INF"
+msgstr "Minima"
+
+msgid  "SUP"
+msgstr "Maxima"
+
+# **********  " CPP " ********
+
+msgid  "Tétralogie V7.0 CPP Fichier : "
+msgstr "Tetralogie V7.es CPP Fichero : "
+
+msgid  "          CLASSIFICATION PAR PARTITION\n\n"
+msgstr "          Clasificacion Por Particiones\n\n"
+
+msgid  "          Nombre de Classe    : %d\n"
+msgstr "          Numero de clase    : %d\n"
+
+msgid  "occurrence inexistante"
+msgstr "Ocurrencia inexistente"
+
+msgid  " Classe Num : %d       Effectif : %d\n       "
+msgstr " Clase N° : %d       Efectivo : %d\n       "
+
+msgid  " Inertie    : %d\n\n       "
+msgstr " Inercia    : %d\n\n       "
+
+msgid  "CLASSES NON INITIALISEES"
+msgstr "Clases no inicializadas"
+
+msgid  "SELECTE"
+msgstr "Seleccion"
+
+msgid  "CLASSIF"
+msgstr "Clasificacion"
+
+#******************* Tableur ********
+
+msgid  "Tétralogie V7.0 Tableur 2D"
+msgstr "Tetralogie V7.es Tabla 2D"
+
+msgid  "Tétralogie V7.0 Tableur 3D"
+msgstr "Tetralogie V7.es Tabla 3D"
+
+msgid  "Histogrammes"
+msgstr "Histogramas"
+
+msgid  "Réseaux     "
+msgstr "Redes"
+
+msgid  "GESTION L/C..."
+msgstr "Gestion de matriz..."
+
+msgid  "OPTION SAISIE..."
+msgstr "Opciones de cogida..."
+
+msgid  "TRIS..."
+msgstr "Funciones de ordenacion..."
+
+msgid  "IMPORT CLASSES"
+msgstr "Importar clases "
+
+msgid  "EXPORT CLASSES"
+msgstr "Exportar clases "
+
+msgid  "DIFFERENTIEL"
+msgstr "Diferenciar     "
+
+msgid  "SOMME"
+msgstr "Sumar"
+
+msgid  "TRANSFORMATION..."
+msgstr "Transformar..."
+
+msgid  "HISTORIQUE"
+msgstr "Conservar"
+
+msgid  "ENREGISTRER"
+msgstr "Guardar"
+
+msgid  "ENREGISTRE SOUS"
+msgstr "Guardar como "
+
+msgid  "NETTOYAGE..."
+msgstr "Limpiar..."
+
+msgid  "EDITION..."
+msgstr "Editar..."
+
+msgid  "FISHEYE VIEWS"
+msgstr "Ojo de pescado"
+
+msgid  "ZOOM"
+msgstr "Zoom"
+
+msgid  "LIGNE/LIGNE"
+msgstr "Linea/Linea"
+
+msgid  "COLONNE/COLONNE"
+msgstr "Columna/Columna"
+
+msgid  "SAISIE NORMALE"
+msgstr "Cogida normal"
+
+msgid  "MODE AFFICHAGE..."
+msgstr "Modo de visualizacion..."
+
+msgid  "INSERTION AVANT"
+msgstr "Insertar antes"
+
+msgid  "INSERTION APRES"
+msgstr "Insertar despues"
+
+msgid  "MASQUER ZERO"
+msgstr "Ocultar ceros"
+
+msgid  "DEMASQUER ZERO"
+msgstr "Visualizar ceros"
+
+msgid  "FORMAT ENTIER"
+msgstr "Formato entero"
+
+msgid  "FORMAT *.X"
+msgstr "Formato   *.X"
+
+msgid  "FORMAT *.XX"
+msgstr "Formato   *.XX"
+
+msgid  "FORMAT *.XXX"
+msgstr "Formato   *.XXX"
+
+msgid  "FORMAT *.XXXX"
+msgstr "Formato   *.XXXX"
+
+msgid  "ALPHA_SUR_LIGNE"
+msgstr "Alfabetica/Lineas"
+
+msgid  "ALPHA_SUR_COL"
+msgstr "Alfabetica/Columnas"
+
+msgid  "CONSISTANCE_LI"
+msgstr "Consistencia/Lineas"
+
+msgid  "CONSISTANCE_CO"
+msgstr "Consistencia/Columnas"
+
+msgid  "CONSISTANCE_L_A"
+msgstr "Ordenacion de la linea"
+
+msgid  "CONSISTANCE_C_A"
+msgstr "Ordenacion de la columna"
+
+msgid  "CONNEXITE"
+msgstr "Ordenacion de conexidad"
+
+msgid  "Blocs en absolu"
+msgstr "Ordenacion absoluta/Bloques"
+
+msgid  "Blocs en relatif"
+msgstr "Ordenacion relativa/Bloques"
+
+msgid  "Classes à 20%"
+msgstr "Lista de los bloques"
+
+msgid  "BLOCS"
+msgstr "Ordenacion por bloques"
+
+msgid  "INSERE LIGNE"
+msgstr "Insertar linea"
+
+msgid  "INSERE COLONNE"
+msgstr "Insertar columna"
+
+msgid  "ANNULE LIGNE"
+msgstr "Eliminar linea"
+
+msgid  "ANNULE COLONNE"
+msgstr "Eliminar columna"
+
+msgid  "INSERE MARGE_LI"
+msgstr "Marginal lineas"
+
+msgid  "INSERE MARGE_CO"
+msgstr "Marginal columnas"
+
+msgid  "INSERE MA_LI_AB"
+msgstr "Marginal lineas abs"
+
+msgid  "INSERE MA_CO_AB"
+msgstr "Marginal columnas abs"
+
+msgid  "DOUBLONS"
+msgstr "Dobles"
+
+msgid  "RANGEE VIDE"
+msgstr "Lin/Col vacias"
+
+msgid  "RANGEE MONO"
+msgstr "Lin/Col de valor 1"
+
+msgid  "EROSION SEUIL"
+msgstr "Umbral de erosion"
+
+msgid  "ADDITION"
+msgstr "Suma"
+
+msgid  "MULTIPLICATION"
+msgstr "Multiplicacion"
+
+msgid  "DIVISION"
+msgstr "Division"
+
+msgid  "PUISSANCE"
+msgstr "Potencia"
+
+msgid  "LOGARITHME"
+msgstr "Logaritmo"
+
+msgid  "EXPONENTIELLE"
+msgstr "Exponencial"
+
+msgid  "SINUS"
+msgstr "Seno"
+
+msgid  "COSINUS"
+msgstr "Coseno"
+
+msgid  "TANGENTE"
+msgstr "Tangente"
+
+msgid  "REDUCTION VAR"
+msgstr "Reduccion variables"
+
+msgid  "VALEUR ABSOLUE"
+msgstr "Valor absoluto"
+
+msgid  "/ Marg. Colonne"
+msgstr "/ Marginal columnas"
+
+msgid  "/ Marg. Ligne"
+msgstr "/ Marginal Lineas"
+
+msgid  "/ Racines Marg."
+msgstr "/ Raiz Marginales"
+
+msgid  "/ Diagonale"
+msgstr "/ Diagonal"
+
+msgid  "MODE GLOBAL"
+msgstr "Modo global"
+
+msgid  "MODE LOCAL"
+msgstr "Modo local"
+
+msgid  "ANNULE LIGNES"
+msgstr "Eliminar lineas"
+
+msgid  "ANNULE COLONNES"
+msgstr "Eliminar columnas"
+
+msgid  "ANNULE LIG&COL"
+msgstr "Eliminar Lin&Col"
+
+msgid  "ANNULE LE RESTE"
+msgstr "Eliminar el resto"
+
+msgid  "CHANGER CLASSES"
+msgstr "Cambiar clases"
+
+msgid  "CHANGER POIDS"
+msgstr "Cambiar consistencia"
+
+msgid  "CHANGER VALEURS"
+msgstr "Cambiar valores"
+
+msgid  "DETAIL LIGNES"
+msgstr "Detalle lineas"
+
+msgid  "DETAIL COLONNES"
+msgstr "Detalle columnas"
+
+msgid  "INSERE SIGMA_LI"
+msgstr "Marginal lineas"
+
+msgid  "INSERE SIGMA_CO"
+msgstr "Marginal columnas"
+
+msgid  "EXPLORATION..."
+msgstr "Exploracion..."
+
+msgid  "Histogramme de l'individu"
+msgstr "Histograma del individuo"
+
+msgid  "Histogramme de la variable"
+msgstr "Histograma de la variable"
+
+msgid  "Noms courts"
+msgstr "Nombres cortados"
+
+msgid  "Noms longs"
+msgstr "Nombres enteros"
+
+msgid  "Entrer la 2eme operande"
+msgstr "Entrar el 2ndo operando"
+
+msgid  "Identificateur interdit"
+msgstr "Identificador prohibido"
+
+msgid  "fichier .not ou fichier basededonnees non trouves\n"
+msgstr "fichero .not ou fichero basededonnees no encontrados\n"
+
+msgid  "          Nombre initial      : %d\n"
+msgstr "          Numero inicial      : %d\n"
+
+msgid  "Lignes"
+msgstr "Lineas"
+
+msgid  "Valeurs\n\n"
+msgstr "Valores\n\n"
+
+msgid  "RESULTATS DE L'ELIMINATION DES COLONNES MONO VALEUR OU NULLES \n\n"
+msgstr "Resultados de la eliminacion de las columnas de valor 1 o nulas\n\n"
+
+msgid  "Colonnes"
+msgstr "Columnas"
+
+msgid  "RESULTATS DE L'ELIMINATION DES DOUBLONS\n\n"
+msgstr "Resultado de la eliminacion de los dobles\n\n"
+
+
+msgid  "     cumul des poids ?"
+msgstr "     Cumulo de las consistencias ?"
+
+msgid  "Modifications!! Quitter ? "
+msgstr "Quiere salir sin modificar ?"
+
+msgid  "echec\n"
+msgstr "Fallo\n"
+
+msgid  "Histogramme de l'individu : %s\0"
+msgstr "Histograma del individuo : %s\0"
+
+msgid  "Histogramme de l'individu : %s reference : %s\0"
+msgstr "Histograma del individuo : %s referencia : %s\0"
+
+msgid  "Histogramme de la variable : %s\0"
+msgstr "Histograma de la variable : %s\0"
+
+msgid  "Histogramme de la variable : %s reference : %s\0"
+msgstr "Histograma de la variable : %s referencia : %s\0"
+
+msgid  "il y a %d elements dans cette liste \n"
+msgstr "Hay %d elementos en esta lista \n"
+
+msgid  "Operation Impossible"
+msgstr "Operacion imposible"
+
+msgid  "COLONNES RESERVEES"
+msgstr "Columnas reservadas"
+
+msgid  "Err ecart_type nul col:%d"
+msgstr "Err desviacion tipica nula col:%d"
+
+msgid  "Entrez la nouvelle classe"
+msgstr "Entrar la nueva clase"
+
+msgid  "Entrez le nouveau poids"
+msgstr "Entrar la nueva consistencia"
+
+msgid  "Rentrez la nouvelle valeur"
+msgstr "Entrar el nuevo valor"
+
+msgid  "Fichier existe. Ecraser?\0"
+msgstr "Suprimir el fichero?\0"
+
+msgid  "Repertoire impossible à creer!!!"
+msgstr "Imposible crear el directorio!"
+
+msgid  "Tétralogie V7.0 Tableur 2D Fichier : "
+msgstr "Tetralogie V7.es Tabla 2D Fichero : "
+
+msgid  "Tétralogie V7.0 Tableur 3D Fichier : "
+msgstr "Tetralogie V7.es Tabla 3D Fichero : "
+
+msgid  " Nbre Var. > 200, Utiliser Tableur 2D "
+msgstr " Demasiadas variables, utilizar la tabla 2D"
+
+msgid  "Fichier destination : "
+msgstr "Fichero destino : "
+
+msgid  "Format incorrect!!!"
+msgstr "Formato incorrecto!"
+
+msgid  "TABLEUR 3D"
+msgstr "Tabla 3D"
+
+msgid  "TABLEUR 2D"
+msgstr "Tabla 2D"
+
+msgid  "A.C.P."
+msgstr "A.C.P."
+
+msgid  "A.F.C."
+msgstr "A.F.C."
+
+msgid  "C.A.H."
+msgstr "C.A.H."
+
+msgid  "C.P.P."
+msgstr "C.P.P."
+
+msgid  "LIENS 4D"
+msgstr "Relaciones 4D"
+
+msgid  "PROCUSTE"
+msgstr "Procustiana"
+
+msgid  "VUE 2D"
+msgstr "Vista 2D"
+
+msgid  "VUE 3D"
+msgstr "Vista 3D"
+
+msgid  "VUE 4D"
+msgstr "Vista 4D"
+
+msgid  "ZOOM 3D"
+msgstr "Zoom 3D"
+
+msgid  "Cartes 2D"
+msgstr "Mapas 2D"
+
+msgid  "ANIME 3D"
+msgstr "Animacion 3D"
+
+msgid  "ANIME 4D"
+msgstr "Animacion 4D"
+
+msgid  "EDITION"
+msgstr "Edicion"
+
+msgid  "DETRUIT"
+msgstr "Destruir"
+
+msgid  "REGLES"
+msgstr "Reglas"
+
+msgid  "FISHEYE"
+msgstr "Ojo de pescado"
+
+# ======== coocmono =========
+
+msgid  "Traitements"
+msgstr "Tratamientos"
+
+msgid  "Syntaxique"
+msgstr "Sintacticos"
+
+msgid  "Morphologique"
+msgstr "Morfologicos"
+
+msgid  "Statistique"
+msgstr "Estadisticos"
+
+msgid  "Enrichissant"
+msgstr "Enriquecer"
+
+msgid  "T_Synt"
+msgstr "T_Sint"
+
+msgid  "T_Moph"
+msgstr "ST_Morf"
+
+msgid  "T_Stat"
+msgstr "T_Estad"
+
+msgid  "Enrichir"
+msgstr "Enriquecer"
+
+msgid  "Rentrez le seuil des multi termes"
+msgstr "Entrar el umbral de los multi terminos"
+
+msgid  "Mots vides"
+msgstr "Terminos vacios"
+
+msgid  "Thesaurus"
+msgstr "Tesauro"
+
+msgid  "Adjacences"
+msgstr "Adyacencias"
+
+msgid  "Codage"
+msgstr "Codificacion"
+
+msgid  "Intégration"
+msgstr "Integracion"
+
+msgid  "Mot-Clé"
+msgstr "Palabra clave"
+
+msgid  "Multi-termes"
+msgstr "Multi-terminos"
+
+msgid  "Nettoyage"
+msgstr "Limpieza"
+
+msgid  "Décodage"
+msgstr "Decodificacion"
+
+# ========  cartes  ========= 
+
+msgid  "Tétralogie Cartes 2D"
+msgstr "Tetralogie Mapas 2D"
+
+msgid  "Tétralogie Carte 2D Fichier : "
+msgstr "Tetralogie Mapa 2D    Fichero : "
+
+msgid  "  Animation "
+msgstr "  Animacion  "
+
+msgid  "Absolu     "
+msgstr "Absoluto     "
+
+msgid  "Population "
+msgstr "/Populacion "
+
+msgid  "    PNB    "
+msgstr "    /PNB    "
+
+msgid  " Superficie"
+msgstr " /Superficie"
+
+msgid  "  Classer  "
+msgstr "  Clasificar  "
+
+msgid  "  Exporter  "
+msgstr "  Exportar  "
+
+msgid  "  Quitter  "
+msgstr "  Salida  "
+
+msgid  "  MONDE  "
+msgstr "  Mundo  "
+
+msgid  " AMERIQUE "
+msgstr " America "
+
+msgid  " Amérique du Nord "
+msgstr " America del Norte "
+
+msgid  " Amérique du Sud "
+msgstr " America del Sur "
+
+msgid  " Amérique Centrale "
+msgstr " America Central "
+
+msgid  "  EUROPE "
+msgstr "  Europa "
+
+msgid  " AFRIQUE "
+msgstr " Africa "
+
+msgid  "  ASIE   "
+msgstr "  Asia   "
+
+msgid  " OCEANIE "
+msgstr " Oceania "
+
+msgid  " CEE "
+msgstr " CEE "
+
+msgid  " G8 "
+msgstr " G8 "
+
+msgid  " Bassin Méditerranéen "
+msgstr " Mediterraneo "
+
+#******************* "Edition" ********
+
+msgid  "TETRALOGIE GESTION DE COMPTE RENDU"
+msgstr "TETRALOGIE GESTION DEL INFORME"
+
+msgid  "DEPLACER"
+msgstr "DESPLAZAR"
+
+msgid  "MASQUER"
+msgstr "OCULTAR"
+
+msgid  "IMPRIMER"
+msgstr "IMPRIMIR"
+
+msgid  "EDITER"
+msgstr "EDITAR"
+
+msgid  "DEMASQUE"
+msgstr "VISUALIZAR"
+
+msgid  "DETRUIRE"
+msgstr "DESTRUIR"
+
+msgid  "PURGER"
+msgstr "PURGAR"
+
+msgid  "Aucune opération n'est consignée dans l'histo!!!"
+msgstr "Ninguna operacion esta consignada en el historial"
+
+msgid  "Le fichier histogramme n'existe pas!!"
+msgstr "El fichero histograma no existe!!"
+
+msgid  "TETRALOGIE PROCUSTE"
+msgstr "TETRALOGIE PROCUSTIANA"
+
+msgid  "ERREUR=%2d\n"
+msgstr "ERROR=%2d\n"
+
+msgid  "Fichier non trouve"
+msgstr "Fichero no encontrado"
+
+msgid  "la taille du fichier Syn est %5d\n"
+msgstr "El tamano del fichero Syn es %5d\n"
+
+msgid  "la taille du filtre est %5d\n"
+msgstr "El tamano del filtro es %5d\n"
+
+

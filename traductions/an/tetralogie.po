@@ -1,0 +1,874 @@
+#***************** "tetralogie" ********
+
+msgid  "TETRALOGIE V7.0 fr"
+msgstr "TETRALOGIA V7.0 fr"
+
+msgid  "Voulez-vous detruire ce Repertoire ?"
+msgstr "         Destroy this directory ?   "
+
+msgid  "Voulez-vous detruire ce Fichier ?"
+msgstr "         Destroy this File ?    "
+
+msgid  "Introduire Des Remarques ?"
+msgstr "     Introduce Remarks ?  "
+
+msgid  "Voulez-vous vraiment detruire?\0"
+msgstr "Voulez-vous vraiment detruire? anglais"
+
+msgid  " Conversion Terminee***** \n"
+msgstr " End Conversion  \n"
+
+msgid  " Fin Compression de %s \n"
+msgstr " End Compression of %s\n"
+
+msgid  " Attention!! Repertoire deja compresse \n"
+msgstr " Attention!! Directory already compressed \n"
+
+msgid  " Fin Decompression de %s\n"
+msgstr " End Uncompression of %s\n"
+
+msgid  " Attention!! Repertoire non compresse \n"
+msgstr " Attention!! Directory not compressed \n"
+
+msgid  "Nouvelle application"
+msgstr "New application     "
+
+msgid  "Quitter"
+msgstr "Cancel "
+
+msgid  "Traitement ..."
+msgstr "Traitment ... " 
+
+msgid  "Filtres"
+msgstr "Filtres"
+
+msgid  "Comptages"
+msgstr "Computing" 
+
+msgid  "Presence/Absence"
+msgstr "IN  /  Not IN   " 
+
+msgid  "Coocurrences"
+msgstr "Cooccurrences"
+
+msgid  "Coocurrences multiples"
+msgstr "Cooccurrences multiples"
+
+msgid  "Synonymes"
+msgstr "Synonymes"
+
+msgid  "Multi-Termes"
+msgstr "Multi-Termes"
+
+msgid  "Dos2Unix"
+msgstr "Dos2Unix" 
+
+msgid  "ReFormatage"
+msgstr "ReFormating"
+
+msgid  "Reformatage"
+msgstr "Reformating"
+
+msgid  "Compression"
+msgstr "Compressing" 
+
+msgid  "Decompression"
+msgstr "Uncompressing"
+
+msgid  "Nettoyage"
+msgstr "Clean Directory" 
+
+msgid  "CHEMIN: \0"
+msgstr "PATH : \0"
+
+msgid  "allocation impossible \n"
+msgstr "allocation not available \n"
+
+msgid  "%s couleur non trouvee\n"
+msgstr "%s color not found    \n"
+
+msgid  "couleur non trouvee\n"
+msgstr "color not found    \n"
+
+msgid  "fichier inexistant\n"
+msgstr "No such file or directory \n"
+
+msgid  " Traitement\n"
+msgstr " Traitment\n"
+
+msgid  "Filtre\n"
+msgstr "Filtre Anglais\n" 
+
+msgid  "Comptage\n" 
+msgstr "Counting\n"
+
+msgid  "Presence/Abscence\n" 
+msgstr "In/Out\n"
+
+msgid  " Coocurrences\n"
+msgstr " Coocurrences Anglais\n"
+
+msgid  " Coocurrences Multiples\n"
+msgstr " Coocurrences Multiples Anglais\n"
+
+msgid  " Synonymes\n"
+msgstr " Synonymes Anglais\n"
+
+msgid  " Multi-termes\n"
+msgstr " Multi-termes Anglais\n"
+
+msgid  "  DESOLE!!  Veuillez  Contacter l'Editeur du Logiciel. \n"
+msgstr "  Sorry !!  Contact your system administrator. \n"
+
+#******************* "4d" ********
+
+msgid  "TETRALOGIE PROJECTION 4D    FICHIER: "
+msgstr "TETRALOGIE PROJECTION 4D    FILE   : "
+
+msgid  "NOM DU FICHIER : "
+msgstr "FILE NAME      : "
+
+msgid  "Nombre lignes     : "
+msgstr "Number lines      : "
+
+msgid  "Nombre colonnes   : "
+msgstr "Number colonnes   : "
+
+msgid  "Nombre occurrences: "
+msgstr "Number occurrences: "
+
+
+msgid  "erreur ouverture de fichier\n"
+msgstr "Opening file error\n" 
+
+msgid  "Erreur_ouverture 00\n"
+msgstr "Opening file error 00\n "
+
+msgid  "Erreur_ouverture 1\n"
+msgstr "Opening file error 1\n "
+
+msgid  "COULEUR        "
+msgstr "COLORS "
+
+msgid  "SELECTION COULEURS"
+msgstr "SELECTION COLORS"
+
+msgid  "GLISSEMENT AXES"
+msgstr "SLIDE AXIS "
+
+msgid  "IDENTIFICATEURS"
+msgstr "IDENTIFICATORS "
+
+msgid  "TRAJECTOIRES   "
+msgstr "TRAJECTORY "
+
+msgid  "REDUCTION NUAGE"
+msgstr "REDUCTION CLOUD "
+
+msgid  "REDUCTION DU CENTRE"
+msgstr "REDUCTION OF CENTER"
+
+msgid  "SELECTION AXES "
+msgstr "SELECTION AXIS "
+
+msgid  "ICONES         "
+msgstr "ICONS "
+
+msgid  "REDUIT POINTS"
+msgstr "REDUIT POINTS Trad"
+
+msgid  " Continue"
+msgstr " Continue"
+
+msgid  " OUI"
+msgstr " YES"
+
+msgid  " NON"
+msgstr " NO"
+
+msgid  " Sortie"
+msgstr " Cancel"
+
+msgid  "AXES VISUALISES"
+msgstr "AXIS VISUALISED "
+
+msgid  " Annuler"
+msgstr " Cancel"
+
+msgid  " FIN"
+msgstr " END"
+
+msgid  "IDENTIFICATION"
+msgstr "IDENTIFICATION"
+
+msgid  "SELECTION      "
+msgstr "SELECTION      "
+
+msgid  "RECHERCHE      "
+msgstr "SEARCHING      "
+
+msgid  "DOUBLES        "
+msgstr "DOUBLES Trad   "
+
+msgid  "MULTI-SELECTION"
+msgstr "MANY-SELECTION "
+
+msgid  "Le nombre d'axes doit etre = 4"
+msgstr "The axis's number must = 4    "
+
+msgid  "Le nombre d'axes doit etre = 3"
+msgstr "The axis's number must = 3    "
+
+msgid  "SELECTION MULTIPLE"
+msgstr " MANY SELECTION   "
+
+msgid  "SELECTION"
+msgstr "SELECTION"
+
+msgid  "RESTE"
+msgstr "RESTE'"
+
+msgid  "NOTICES"
+msgstr "NOTICES'"
+
+msgid  "CLASSER"
+msgstr "CLASSER'"
+
+msgid  "DETAIL"
+msgstr "DETAIL'"
+
+
+#***************** "import" ********
+
+msgid  "Nom de l'application"
+msgstr "Application Name    "
+
+msgid  "Choix des structures"
+msgstr "Choice of structures"
+
+msgid  " Quitter"
+msgstr " Cancel "
+
+msgid  "QUITTER"
+msgstr "CANCEL "
+
+msgid  "Repertoire  existe deja \n"
+msgstr "Sorry, choice an another application name \n"
+
+msgid  " Le nom de l'application est Obligatoire \n"
+msgstr " Le nom de l'application est Obligatoire Traduit \n" 
+
+msgid  " %s%s/reformateur inexistant !!\n"
+msgstr "No such %s%s/reformateur !!\n"
+
+msgid  "erreur d'ouverture de %s \n"
+msgstr "Opening file error \n"
+
+msgid  " %s inexistant !!\n"
+msgstr " No such file %s!!\n"
+
+msgid  "Attention !! Application creee sans le choix de la Base\n"
+msgstr "Attention !! Application creee sans le choix de la Base Traduit \n"
+
+msgid  " NOUVELLE APPLICATION "
+msgstr " NEW APPLICATION      "
+
+msgid  " Nouvelle Application "
+msgstr " New Application      "
+
+#****************** "Reformatage" ********
+
+msgid  " Erreur d'ouverture du repertoire : %s \n"
+msgstr " "
+
+msgid  " Erreur d'ouverture du %s \n"
+msgstr " "
+
+msgid  "Indefini"
+msgstr "Not Defined"
+
+msgid  "Reformatage du"
+msgstr "Reformating of"
+
+msgid  "TETRALOGIE Reformatage"
+msgstr "TETRALOGIE Reformating"
+
+msgid  " Chaque corpus doit avoir un fichier reformateur. S'il n'est pas defini, alors il faut le creer sous le nom : /donnees/ApplicationUtilisee/reformateur.\n\n"
+msgstr " Every Thesaurus must have one reformator file. ...\n"
+
+msgid  " Chaque corpus doit avoir un fichier reformateur, S'ils ne sont pas definis, il faut les creer sous les noms : /donnees/ApplicationUtilisee/reformateur1, 2, 3, etc.\n\n"
+msgstr " Every Thesaurus must have one reformator file. ...\n"
+
+msgid  " \n Corpus inexistant ou Repertoire compresse \n\n"
+msgstr " \n No such Thesaurus or Directory been compressed \n\n"
+
+msgid  " \n Desole!! Corpus sans Reformateur. \n\n"
+msgstr " \n Sorry!! Thesaurus without formator. \n\n"
+
+msgid  "Aide"
+msgstr "Help"
+
+msgid  "Reformater"
+msgstr "Reformater"
+
+#***************** "fisheye" ********
+
+msgid  " Deformation d : "
+msgstr " Deformation d : "
+
+msgid  " Coefficient c : "
+msgstr " Coefficient c : "
+
+msgid  " Exposant   e  : "
+msgstr " Exposant   e  : "
+
+msgid  " Fichier Donnees: "
+msgstr " Data File      : "
+
+msgid  " Ligne   :"
+msgstr " Line    :"
+
+msgid  " Colonne :"
+msgstr " Colonne :"
+
+msgid  " Metriques"
+msgstr " Metrics  "
+
+msgid  " Niveau de Coupe"
+msgstr " Level of Cut   "
+
+msgid  "Inter-Individus"
+msgstr "Inter-Indivs   "
+
+msgid  "Inter-Classes"
+msgstr "Inter-Clusters"
+
+msgid  "Vue Normale"
+msgstr "Normale View"
+
+msgid  "Vue de poisson"
+msgstr "Fisheye view  "
+
+msgid  "Parametres"
+msgstr "Parametres"
+
+msgid  "Parametres Fisheye"
+msgstr "Parametres Fisheye"
+
+msgid  "Coupe"
+msgstr "Cut  "
+
+msgid  "Mahanalobis "
+msgstr "Mahanalobis "
+
+msgid  "Euclidienne"
+msgstr "Euclid     "
+
+msgid  "Cooccurrence"
+msgstr "Cooccurrence"
+
+
+msgid  "Usage :  fisheye  Chemin  Nom_Fichier \n"
+msgstr ""
+
+#************** "2d / 3d / anime34 / anime4d" ********
+
+msgid  "nombre d'arguments inadequat\n"
+msgstr " Failed Arguments Number \n" 
+
+msgid  "Le format du fichier est incorrect\0"
+msgstr "Le format du fichier est incorrect\0"
+
+msgid  "TETRALOGIE PROJECTION 2D    FICHIER: "
+msgstr "TETRALOGIE PROJECTION 2D    FILE   : "
+
+msgid  "TETRALOGIE PROJECTION 3D    FICHIER: "
+msgstr "TETRALOGIE PROJECTION 3D    FILE   : "
+
+msgid  "TETRALOGIE ANIMATION 3D  : "
+msgstr "TETRALOGIE ANIMATION 3D  : "
+
+msgid  "Tetralogie Animation 3D"
+msgstr "Tetralogie Animatione 3D"
+
+msgid  "Tetralogie Animation 4D"
+msgstr "Tetralogie Animatione 4D"
+
+msgid  "TETRALOGIE ANIMATION 4D  : "
+msgstr "TETRALOGIE ANIMATION 4D  : "
+
+#******************* " AFC / ACP" ********
+
+msgid  "          Fichier             : %s\n"
+msgstr "          File                : %s\n"
+
+msgid  "          Nombre d'occurrences: %d\n"
+msgstr "          Numbre d'occurrences trad: %d\n"
+
+msgid  "          Nombre de colonnes  : %d\n"
+msgstr "          Nombre de colonnes trad : %d\n"
+
+msgid  "          Nombre de lignes    : %d\n"
+msgstr "          Nombre de lignes trad   : %d\n"
+
+msgid  "          Occurence analysee  : %d\n"
+msgstr "          Occurence analysee trad : %d\n"
+
+msgid  "          Occurence analysee  : Somme\n"
+msgstr "          Occurence analysee trad : Somme\n"
+
+msgid  "          Occurence analysee  : Toutes\n"
+msgstr "          Occurence analysee trad : Toutes\n"
+
+msgid  "   No  &  Nom |  Coor1  Crel1  Cabs1 |"
+msgstr "   No  &  Nom |  Coor1  Crel1  Cabs1 |"
+
+msgid  "  Coor2  Crel2  Cabs2 |"
+msgstr "  Coor2  Crel2  Cabs2 |"
+
+msgid  "  Coor3  Crel3  Cabs3 |"
+msgstr "  Coor3  Crel3  Cabs3 |"
+
+msgid  "  Coor4  Crel4  Cabs4 "
+msgstr "  Coor4  Crel4  Cabs4 "
+
+
+msgid  " Coordonnees, contributions relatives et absolues des individus"
+msgstr " Coordonnees, contributions relatives et absolues des individus trad"
+
+msgid  " Coordonnees, contributions relatives et absolues des parametres"
+msgstr " Coordonnees, contributions relatives et absolues des parametres trad"
+
+msgid  " Marginal <= 0 remplace. continuer?\0"
+msgstr " Marginal <= 0 remplace. continuer?trad\0"
+
+msgid  "ANALYSE FACTORIELLE DES CORRESPONDANCES\n\n"
+msgstr "ANALYSE FACTORIELLE DES CORRESPONDANCES trad\n\n"
+
+msgid  "APRES AFC"
+msgstr "AFTER AFC"
+
+msgid  "Axe%d "
+msgstr "Axis%d "
+
+msgid  "Axe1"
+msgstr "Axis1"
+
+msgid  "Axe2"
+msgstr "Axis2"
+
+msgid  "Axe3"
+msgstr "Axe3"
+
+msgid  "Axe4"
+msgstr "Axis4"
+
+msgid  "Axes"
+msgstr "Axis"
+
+msgid  "Occurrence %d"
+msgstr "Occurrence %d trad"
+
+msgid  "Valeurs Propres"
+msgstr "Valeurs Propres trad"
+
+msgid  "Vecteurs Propres"
+msgstr "Vecteurs Propres trad"
+
+msgid  "cumuls"
+msgstr "cumuls trad"
+
+msgid  "inerties"
+msgstr "inerties trad"
+
+msgid  "valeurs"
+msgstr "valeurs trad"
+
+msgid  " Occurrence A Analyser ?"
+msgstr " Occurrence A Analyser ? trad"
+
+msgid  "VALEURS PROPRES"
+msgstr "VALEURS PROPRES trad"
+
+msgid  "CUMULS"
+msgstr "CUMULS trad"
+
+msgid  "CORRELATIONS INDIVIDUS"
+msgstr "CORRELATIONS INDIVIDUS trad"
+
+msgid  "CORRELATIONS VARIABLES"
+msgstr "CORRELATIONS VARIABLES trad"
+
+msgid  "DENSITES INDIVIDUS"
+msgstr "DENSITES INDIVIDUS trad"
+
+msgid  "DENSITES VARIABLES"
+msgstr "DENSITES VARIABLES trad"
+
+msgid  "OBSERVATOIRE %s Fichier: %s"
+msgstr "OBSERVATOIRE %s File   : %s"
+
+msgid  "DONNEES REDUITES"
+msgstr "DATA REDUICE"
+
+msgid  "DONNEES"
+msgstr "DATA"
+
+msgid  "Reduction des donnees ?"
+msgstr "     Data Reduction  ? "   
+
+msgid  "ANALYSE EN COMPOSANTES PRINCIPALES\n\n"
+msgstr "ANALYSE EN COMPOSANTES PRINCIPALES Trad\n\n"
+
+msgid  "ANALYSE EN COMPOSANTES PRINCIPALES REDUITE\n\n"
+msgstr "ANALYSE EN COMPOSANTES PRINCIPALES REDUITE Trad\n\n"
+
+# **********  " CPP " ********
+
+msgid  "TETRALOGIE PROJECTION CPP  FICHIER: "
+msgstr "TETRALOGIE PROJECTION CPP  FILE   : "
+
+msgid  "          CLASSIFICATION PAR PARTITION\n\n"
+msgstr "          CLASSIFICATION PAR PARTITION Trad\n\n"
+
+msgid  "          Nombre de Classe    : %d\n"
+msgstr "          Number Of Cluster   : %d\n"
+
+msgid  "occurrence inexistante"
+msgstr "occurrence not found  "
+
+msgid  " Classe Num : %d       Effectif : %d\n       "
+msgstr " Cluster Num : %d       Effectif : %d\n      "
+
+msgid  " Inertie    : %d\n\n       "
+msgstr " Inertie    : %d\n\n       "
+
+msgid  "CLASSES NON INITIALISEES"
+msgstr "CLASSES NON INITIALISEES"
+
+msgid  " SELECTE "
+msgstr " SELECTE "
+
+msgid  " CLASSIF "
+msgstr " CLASSIF "
+
+#******************* Tableur ********
+
+
+msgid  "GESTION L/C   *"
+msgstr "GESTION L/C   *"
+
+msgid  "OPTION SAISIE *"
+msgstr "OPTION SAISIE  "
+
+msgid  "TRIS          *"
+msgstr "SORT          *"
+
+msgid  "IMPORT CLASSES "
+msgstr "IMPORT CLUSTERS"
+
+msgid  "EXPORT CLASSES "
+msgstr "EXPORT CLUSTERS"
+
+msgid  "DIFFERENTIEL   "
+msgstr "DIFFERENTIEL   "
+
+msgid  "SOMME          "
+msgstr "SOMME          "
+
+msgid  "TRANSFORMATION*"
+msgstr "TRANSFORMATION*"
+
+msgid  "HISTORIQUE     "
+msgstr "HISTORIQUE     "
+
+msgid  "ENREGISTRER    "
+msgstr "SAVE           "
+
+msgid  "ENREGISTRE SOUS"
+msgstr "SAVE AS        "
+
+msgid  "NETTOYAGE     *"
+msgstr "CLEAN         *"
+
+msgid  "EDITION       *"
+msgstr "EDITION       *"
+
+msgid  "FISHEYE VIEWS  "
+msgstr "FISHEYE VIEWS  "
+
+msgid  "ZOOM           "
+msgstr "ZOOM           "
+
+msgid  "LIGNE/LIGNE   "
+msgstr "LIGNE/LIGNE   "
+
+msgid  "COLONNE/COLONNE"
+msgstr "COLONNE/COLONNE"
+
+msgid  "SAISIE NORMALE "
+msgstr "SAISIE NORMALE "
+
+msgid  "MODE AFFICHAGE*"
+msgstr "MODE AFFICHAGE*"
+
+msgid  "INSERTION AVANT"
+msgstr "INSERTION BEFORE"
+
+msgid  "INSERTION APRES"
+msgstr "INSERTION AFTER"
+
+msgid  "MASQUER ZERO   "
+msgstr "MASQUER ZERO   "
+
+msgid  "DEMASQUER ZERO "
+msgstr "DEMASQUER ZER "
+
+msgid  " FORMAT ENTIER "
+msgstr " FORMAT ENTIER "
+
+msgid  " FORMAT *.X    "
+msgstr " FORMAT *.X    "
+
+msgid  " FORMAT *.XX   "
+msgstr " FORMAT *.XX   "
+
+msgid  " FORMAT *.XXX  "
+msgstr " FORMAT *.XXX  "
+
+msgid  " FORMAT *.XXXX "
+msgstr " FORMAT *.XXXX "
+
+msgid  "ALPHA_SUR_LIGNE"
+msgstr "ALPHA_SUR_LIGNE "
+
+msgid  "ALPHA_SUR_COL  "
+msgstr "ALPHA_SUR_COL "
+
+msgid  "CONSISTANCE_LI "
+msgstr "CONSISTANCE_LI "
+
+msgid  "CONSISTANCE_CO "
+msgstr "CONSISTANCE_CO "
+
+msgid  "CONSISTANCE_C_A"
+msgstr "CONSISTANCE_C_A"
+
+msgid  "CONSISTANCE_L_A"
+msgstr "CONSISTANCE_L_A "
+
+msgid  "CONNEXITE      "
+msgstr "CONNEXITE "
+
+msgid  "BLOCS          "
+msgstr "BLOCS  "
+
+msgid  "INSERE LIGNE   "
+msgstr "INSERE LINE    "
+
+msgid  "INSERE COLONNE "
+msgstr "INSERE COLONNE"
+
+msgid  "ANNULE LIGNE   "
+msgstr "ANNULE LINE    "
+
+msgid  "ANNULE COLONNE "
+msgstr "ANNULE COLONNE "
+
+msgid  "INSERE MARGE_LI"
+msgstr "INSERE MARGE_LI"
+
+msgid  "INSERE MARGE_CO"
+msgstr "INSERE MARGE_CO"
+
+msgid  "INSERE MA_LI_AB"
+msgstr "INSERE MA_LI_AB"
+
+msgid  "INSERE MA_CO_AB"
+msgstr "INSERE MA_CO_AB"
+
+msgid  "DOUBLONS       "
+msgstr "DOUBLONS  "
+
+msgid  "LIGNE MONO VAL "
+msgstr "LIGNE MONO VAL "
+
+msgid  "COLONNE MONOVAL"
+msgstr "COLONNE MONOVAL "
+
+msgid  "EROSION SEUIL  "
+msgstr "EROSION SEUIL  "
+
+msgid  "   ADDITION     "
+msgstr "   ADDITION     "
+
+msgid  "MULTIPLICATION  "
+msgstr "MULTIPLICATION "
+
+msgid  "   DIVISION     "
+msgstr "   DIVISION     "
+
+msgid  "   PUISSANCE    "
+msgstr "   PUISSANCE    "
+
+msgid  "   LOGARITHME   "
+msgstr "   LOGARITHME   "
+
+msgid  "EXPONENTIELLE   "
+msgstr "EXPONENTIELLE   "
+
+msgid  "    SINUS       "
+msgstr "    SINUS       "
+
+msgid  "   COSINUS      "
+msgstr "   COSINUS      "
+
+msgid  "   TANGENTE     "
+msgstr "   TANGENTE     "
+
+msgid  "REDUCTION VAR   "
+msgstr "REDUCTION VAR   "
+
+msgid  "VALEUR ABSOLUE  "
+msgstr "VALEUR ABSOLUE  "
+
+msgid  "/ Marg. Colonne "
+msgstr "/ Marg. Colonne "
+
+msgid  "/ Marg. Ligne   "
+msgstr "/ Marg. Ligne   "
+
+msgid  "/ Racines Marg. "
+msgstr "/ Racines Marg. "
+
+msgid  "/ Diagonale     "
+msgstr "/ Diagonale     "
+
+msgid  "  MODE GLOBAL   "
+msgstr "  MODE GLOBAL   "
+
+msgid  "  MODE LOCAL    "
+msgstr "  MODE LOCAL    "
+
+msgid  "ANNULE LIGNES  "
+msgstr "ANNULE LIGNES  "
+
+msgid  "ANNULE COLONNES"
+msgstr "ANNULE COLONNES"
+
+msgid  "ANNULE LIG&COL "
+msgstr "ANNULE LIG&COL "
+
+msgid  "ANNULE LE RESTE"
+msgstr "ANNULE LE RESTE"
+
+msgid  "CHANGER CLASSES"
+msgstr "CHANGER CLASSES"
+
+msgid  "CHANGER POIDS  "
+msgstr "CHANGER POIDS "
+
+msgid  "CHANGER VALEURS"
+msgstr "CHANGER VALEURS"
+
+msgid  "DETAIL LIGNES  "
+msgstr "DETAIL LIGNES "
+
+msgid  "DETAIL COLONNES"
+msgstr "DETAIL COLONNES "
+
+msgid  "INSERE SIGMA_LI"
+msgstr "INSERE SIGMA_LI"
+
+msgid  "INSERE SIGMA_CO"
+msgstr "INSERE SIGMA_CO"
+
+msgid  "Entrer la 2eme operande"
+msgstr "Entrer la 2eme operande"
+
+msgid  "Identificateur interdit"
+msgstr "Identificateur interdit"
+
+msgid  "fichier .not ou fichier basededonnees non trouves\n"
+msgstr "fichier .not ou fichier basededonnees non trouves\n"
+
+msgid  "          Nombre initial      : %d\n"
+msgstr "          Nombre initial      : %d\n"
+
+msgid  "Lignes"
+msgstr "Lines "
+
+msgid  "Valeurs\n\n"
+msgstr "Valeurs\n\n"
+
+
+msgid  "RESULTATS DE L'ELIMINATION DES COLONNES MONO VALEUR OU NULLES \n\n"
+msgstr "RESULTATS DE L'ELIMINATION DES COLONNES MONO VALEUR OU NULLES \n\n"
+
+msgid  "Colonnes"
+msgstr "Colonnes"
+
+msgid  "RESULTATS DE L'ELIMINATION DES DOUBLONS\n\n"
+msgstr "RESULTATS DE L'ELIMINATION DES DOUBLONS\n\n"
+
+
+msgid  "     cumul des poids ?"
+msgstr "     cumul des poids ?"
+
+msgid  "Modifications!! Quitter ? "
+msgstr "Modifications!! Cancel ?  "
+
+msgid  "echec\n"
+msgstr "echec\n"
+
+msgid  "Histogramme de l'individu : %s\0"
+msgstr "Histogramme de l'individu : %s\0"
+
+msgid  "Histogramme de l'individu : %s reference : %s\0"
+msgstr "Histogramme de l'individu : %s reference : %s\0"
+
+msgid  "Histogramme de la variable : %s\0"
+msgstr "Histogramme de la variable : %s\0"
+
+msgid  "Histogramme de la variable : %s reference : %s\0"
+msgstr "Histogramme de la variable : %s reference : %s\0"
+
+msgid  "il y a %d elements dans cette liste \n"
+msgstr "il y a %d elements dans cette liste \n"
+
+msgid  "Operation Impossible"
+msgstr "Operation Impossible"
+
+msgid  "COLONNES RESERVEES"
+msgstr "COLONNES RESERVEES"
+
+msgid  "Err ecart_type nul col:%d"
+msgstr "Err ecart_type nul col:%d"
+
+
+msgid  "Entrez la nouvelle classe"
+msgstr "Entrez la nouvelle classe"
+
+msgid  "Entrez le nouveau poids"
+msgstr "Entrez le nouveau poid"
+
+msgid  "Rentrez la nouvelle valeur"
+msgstr "Rentrez la nouvelle valeur"
+
+msgid  "Fichier existe. Ecraser?\0"
+msgstr "Fichier existe. Ecraser?\0"
+
+msgid  "Repertoire impossible à creer!!!"
+msgstr "Repertoire impossible à creer!!!"
+
+msgid  "TETRALOGIE TABLEUR    FICHIER: "
+msgstr "TETRALOGIE TABLEUR    FILE   : "
+
+msgid  " Nbre Var. > 200, Utilisez Tableur 2D "
+msgstr " Nbre Var. > 200, Use Tableur 2D      "
+
+msgid  "Fichier destination : "
+msgstr "File destination : "
+
+msgid  "Format incorrect!!!"
+msgstr "Format incorrect!!!"

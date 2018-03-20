@@ -1,0 +1,14 @@
+rm /home/bernard/compil/*
+cd /home/bernard/include
+cp spec2000.h specification.h
+cp spec2002.h specification2.h
+cd /home/bernard/sources
+make
+cd /home/bernard/Tao/sources
+cp Make2000 Makefile
+make
+cd /home/bernard
+cp compil/* bin2000
+tar -cvf bin2000.tar bin2000
+gzip bin2000.tar
+echo "compilation 2000"

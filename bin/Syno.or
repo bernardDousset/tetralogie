@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Synonymie des organismes avec double dico (Cecile et Bernard)
+
+if ((test -f $3/$1) && (test $2 ) && (test -d $3 )) 
+then
+rep=$TETRALOGIEHOME/Syn
+cd $3
+sort                                                       $1    > synonymies
+awk '{ print " ",$0," "}'                             synonymies > aux.1
+sed -f "$rep/p-sed-or"                                     aux.1 > aux.2
+awk '{for (i=1;i<NF;i++) printf "%-128s ",$i ; print $NF}' aux.2 > aux.1
+awk '{ if (NF>=1) print $0,"\t", FNR}'                     aux.1 > aux.2
+sort -t\t -k 1                                             aux.2 > aux.1 
+awk -f $rep/p-makesyn-aut                                  aux.1 > aux.2
+awk -f $rep/p-numero-syn                                   aux.2 > aux.1
+sort -u                                                    aux.1 > aux.2
+T0                                                         aux.2   aux.1
+sort -t "_" -k 2					   aux.1 > aux.2
+T2                                                         aux.2   $2
+rm  aux.1 aux.2 synonymies
+else
+echo "la syntaxe est Syno input(existe) output repertoire(existe)"
+fi

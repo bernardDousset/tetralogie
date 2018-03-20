@@ -1,0 +1,26 @@
+#!/bin/bash
+# Convertir une liste de documents HTML en documents Texte issus de plusieurs Repertoire.
+
+
+
+cd $TETRALOGIEHOME/URL/$1;
+
+
+
+ls | tr -s " " "\012" | while read RepCourant 
+			do
+			   echo "  ";
+			   echo "Traitement du repertoire $RepCourant";
+			   echo "  ";
+			   cd $RepCourant;
+
+			   ls|tr -s " " "\012" | grep .htm | while read fich
+							     do 
+				   			    /home/Tetra/bin/html2text $TETRALOGIEHOME/URL/$1/$RepCourant $fich  $fich.txt
+				    
+# Pour une application directe dans Tetralogie, decommenter les 2 lignes 
+ 				    			     cat $fich.txt >> $TETRALOGIEHOME/donnees/$1/$1.not
+ 				    			     rm $fich.txt
+ 				 			     done
+			   cd ..;
+			done

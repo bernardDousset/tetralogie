@@ -1,0 +1,64 @@
+#!/usr/bin/perl5.6.1
+use HTML::TokeParser;
+use HTML::Filter;
+
+unless (@ARGV == 3) { die "usage $0 <fich_html> <fich_text>\n";}
+
+open(OUT, ">$ARGV[1]");
+
+$p = HTML::TokeParser->new("$ARGV[1]") || die "Can't open: $!"; 
+
+sub parse_document() {
+
+    while (my $token = $p->get_tag("body")) {    
+      my $Data = $p->get_text("/body");
+      $Data =~ s/\s+(.*)\n/ $1\n/g;
+      $Data =~ s/\[Home\]//g;
+      $Data =~ s/\[Boolean Search\]//g;
+      $Data =~ s/\[Manual\]//g;
+      $Data =~ s/\[Number Search\]//g;
+      $Data =~ s/\[Help\]//g;
+      $Data =~ s/\[CURR_LIST\]//g;
+      $Data =~ s/\[NEXT_LIST\]//g;
+      $Data =~ s/\[PREV_DOC\]//g;
+      $Data =~ s/\[NEXT_DOC\]//g;
+      $Data =~ s/\[Image\]//g; 
+      $Data =~ s/\[IMG\]//g;
+      $Data =~ s/<(([^>]|\n)*)>//g;
+      $Data =~ s/&nbsp;//g;
+      $Data =~ s/&eacute;|&egrave;/e/g;
+      $Data =~ s/&aacute;|&agrave;|&acirc;/a/g;
+      $Data =~ s/&ecirc;/e/g;
+      $Data =~ s/&ucirc;|&ugrave;/u/g;
+      $Data =~ s/&ccedil;/c/g;
+      $Data =~ s/&ocirc;/o/g;
+      $Data =~ s/&icirc;|&iuml;/i/g;
+      $Data =~ s/&gt;/>/g;
+      $Data =~ s/&lt;/</g; 
+      $Data =~ s/&amp;/&/g;
+      $Data =~ s/&quot;/\"/g;
+      $Data =~ s/&\#146;/\'/g;
+      $Data =~ s/\n\n\n*/\n/g;
+      $Data =~ s/Á|Â|À|Ã|Å|Ä/A/g;
+      $Data =~ s/â|á|à|å|ä/a/g;
+      $Data =~ s/ç/c/g;
+      $Data =~ s/Ç/C/g;
+      $Data =~ s/é|ê|è|ë/e/g;
+      $Data =~ s/É|Ê|È|Ë/E/g;
+      $Data =~ s/Í|Î|Ì|Ï/I/g;
+      $Data =~ s/í|î|ì|ï/i/g;
+      $Data =~ s/Ñ/N/g;
+      $Data =~ s/ñ/n/g;
+      $Data =~ s/Ó|Ô|Ò|Ø|Õ|Ö/O/g;
+      $Data =~ s/ó|ô|ò|ø|õ|ö/o/g;
+      $Data =~ s/Ú|Û|Ù|Ü/U/g;
+      $Data =~ s/ú|û|ù|ü/u/g;
+      print OUT $Data;
+    }
+}  
+
+&parse_document;
+
+#print "\n Fin de conversion de $ARGV[0]/$ARGV[1] \n";
+#close(IN);
+close(OUT);

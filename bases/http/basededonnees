@@ -1,0 +1,5 @@
+http:
+# descripteurs des champs du format issu de Html2txt #
+# nom       abrev champ         visible Separateurs  #
+Site         SI    http:         True    //"/"ORD2"
+FIN          FIN   FIN           FIN     "

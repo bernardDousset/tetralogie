@@ -1,0 +1,31 @@
+BEGIN {
+ ligne="hhhhh"
+ nb=1
+ val[1]=ligne
+     }
+{
+ if (nb==NF)
+ {
+  double=1
+  for (i=1;i<=NF;i++)
+  {
+   if ((match(val[i],$i)==0 && match($i,val[i])==0) || length(val[i])>length($i)+2 ||length($i)>length(val[i])+2   ) double =0
+  }
+  if (double==1)
+  {
+   print $0, "\t",ligne
+  }
+  else
+  {
+   ligne= $0
+   for (i=1;i<=NF;i++) val[i]=$i
+  }
+ }
+ else
+ {
+  nb=NF
+  for (i=1;i<=NF;i++) val[i]=$i
+  ligne=$0
+ }
+}
+  

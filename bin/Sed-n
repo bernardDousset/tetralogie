@@ -1,0 +1,19 @@
+#!/usr/bin/perl5 -w 
+
+if (@ARGV != 2) { die "usage : $0  <fich_In> <fich_out> \n";}
+
+print "\n******* Debut *******\n";
+
+open(IN, "$ARGV[0]");
+open(OUT, ">$ARGV[1]");
+
+while ($_ = <IN>) {
+ 
+  chomp;
+  print OUT "$_ \tOK \n";
+}
+print "\n******* Fin  *******\n";
+close(IN);
+close(OUT);	
+
+  

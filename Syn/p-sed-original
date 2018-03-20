@@ -1,0 +1,129 @@
+s/ /\-/g
+s/\*//g
+s/://g
+s/\-I\-/\-1\-/g
+s/\-II\-/\-2\-/g
+s/\-III\-/\-3\-/g
+s/\-IV\-/\-4\-/g
+s/\-V\-/\-5\-/g
+s/\-VI\-/\-6\-/g
+s/\-VII\-/\-7\-/g
+s/\-VIII\-/\-8\-/g
+s/\-IX\-/\-9\-/g
+s/\-X\-/\-10\-/g
+s/\-XI\-/\-11\-/g
+s/\-XII\-/\-12\-/g
+s/\-XIII\-/\-13\-/g
+s/\-AND\-/\-&\-/g
+s/\-ET\-/\-&\-/g
+s/\// /g
+s/\-DE\-/\-/g
+s/\-D'\-/\-/g
+s/\-DI\-/\-/g
+s/\-D\-/\-/g
+s/\-DE\-/\-/g
+s/\-FOR\-/\-/g
+s/\-OF\-/\-/g
+s/\-THE\-/\-/g
+s/\-VOOR\-/\-/g
+s/\// /g
+s/\-/ /g
+s/  / /g
+s/  / /g
+s/\"//g
+s/\.//g
+s/ACADEMIE /ACAD /g
+s/ACADEMY /ACAD /g
+s/AGRICULTURAL /AGRI /g
+s/AGRO /AGR /g
+s/AGRON /AGR /g
+s/AGRONOM /AGR /g
+s/AGRONOMIE /AGR /g
+s/AGRONOMIQUE /AGR /g
+s/AGRONOMY /AGR /g
+s/BIOLOGIE /BIOL /g
+s/BIOLOGY /BIOL /g
+s/BIO /BIOL /g
+s/CENT /CTR /g
+s/CENTER /CTR /g
+s/CENTRE /CTR /g
+s/CENTRO /CTR /g
+s/DEP /DEPT /g
+s/DEPARTEMENT /DEPT /g
+s/DEPARTAMENTA /DEPT /g
+s/DEPARTMENT /DEPT /g
+s/DEPARTMENTO /DEPT /g
+s/DIPARTIMENTO /DEPT /g
+s/DIPARTMENTO /DEPT /g
+s/DEPTO /DEPT /g
+s/CENT /CTR /g
+s/CENTER /CTR /g
+s/CENTRE /CTR /g
+s/ETABLISSEMENT /ETAB /g
+s/ECOL /ECOLE /g
+s/ESCUELA /ECOLE /g
+s/SCHOOL /ECOLE /g
+s/FACULTE /FAC /g
+s/FACULTY /FAC /g
+s/FACULTAD /FAC /g
+s/FAK /FAC /g
+s/FACULDADE /FAC /g
+s/GENETIC /GEN /g
+s/GROUPE /GRP /g
+s/GROUPEMENT /GRP /g
+s/HOSP /HOP /g
+s/HOSPITAL /HOP /g
+s/INTERNATIONAL /INT /g
+s/INST NATL AGR /INRA /g
+s/INST NATL RECH AGR /INRA /g
+s/INSTITUT /INST /g
+s/INSTITUTE /INST /g
+s/ISTITUTO /INST /g
+s/LABORATOERIO /LAB /g
+s/LABORATORIO /LAB /g
+s/LABORATORIE /LAB /g
+s/LABORATORIUM /LAB /g
+s/LABORATOIRE /LAB /g
+s/LABORATORY /LAB /g
+s/NATIONAL /NATL /g
+s/NAT /NATL /g
+s/OBSERV /OBS /g
+s/OBSERVATOIRE /OBS /g
+s/OFFICE /OFF /g
+s/PATHOLOGIE /PATH /g
+s/PHARMACEUT /PHARM /g
+s/PHARMACOL /PHARM /g
+s/PROGRAM /PROG /g
+s/PROGRAMA /PROG /g
+s/PROGRAMME /PROG /g
+s/RECHERCHE /RES /g
+s/RESEARCH /RES /g
+s/REGLEMENTATION /REG /g
+s/RESEARCH /RES /g
+s/SAINT /ST /g
+s/SERVICE /SERV /g
+s/SCIENCES /SCI /g
+s/SOCIETE /SOC /g
+s/STATION /STN /g
+s/SUPER /SUP /
+s/SUPERIEUR /SUP /g
+s/TOXICOLOGY /TOXICOL /g
+s/UNITE /UNIT /g
+s/UNIDAD /UNIT /g
+s/UNIV UNIV /UNIV /g
+s/UNIVERSIDAD /UNIV /g
+s/UNIVERSIDAORE /UNIV /g
+s/UNIVERSITA /UNIV /g
+s/UNIVERSITAET /UNIV /g
+s/UNIVERSITAT /UNIV /g
+s/UNIVERSITE /UNIV /g
+s/UNIVERSITY /UNIV /g
+s/VETERINAIRE /VET /g
+s/VETERINARY /VET /g
+s/VIROLOGY /VIROL /g
+s/(//g
+s/)//g
+s/<//g
+s/>//g
+
+

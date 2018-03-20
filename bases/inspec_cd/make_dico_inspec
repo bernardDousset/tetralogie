@@ -1,0 +1,15 @@
+sed "s/- / /g" DE.ind > DE
+sed "s/- / /g" ID.ind > ID
+grep "-" DE > DE-
+grep "-" ID > ID-
+grep "-" AB.ind > AB-
+grep "-" TI.ind > TI-
+cat DE- ID- AB- TI- > DICO
+sed "s/-/ /g" DICO > DICOg
+rm DE
+rm ID
+rm ID-
+rm DE-
+rm AB-
+rm TI-
+rm DICO 

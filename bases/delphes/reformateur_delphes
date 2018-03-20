@@ -1,0 +1,15 @@
+sed -e "s/'/ /g" FILE.not > FILE
+sed -e "s/é/e/g" FILE > FILE.not
+sed -e "s/è/e/g" FILE.not > FILE
+sed -e "s/ç/c/g" FILE > FILE.not
+sed -e "s/à/a/g" FILE.not > FILE
+sed -e "s/ù/u/g" FILE > FILE.not
+sed -e "s/ô/o/g" FILE.not > FILE
+sed -e "s/û/u/g" FILE > FILE.not
+sed -e "s/ê/e/g" FILE.not > FILE
+sed -e "s/â/a/g" FILE > FILE.not
+sed -e "s/ï/i/g" FILE.not > FILE
+sed -e "s/î/i/g" FILE > FILE.not
+sed -e "s/ü/u/g" FILE.not > FILE
+sed -e "s/ö/o/g" FILE > FILE.not
+

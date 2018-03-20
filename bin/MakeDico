@@ -1,0 +1,10 @@
+cat AB.ind TI.ind > TX
+grep - TX > TX-
+cat DE.ind ID.ind TX- > TX
+SED-N TX TX-
+grep - TX- > TX
+sort -u TX > TX-
+sed "s/-/ /g" TX- > DICO
+rm TX
+rm TX-
+

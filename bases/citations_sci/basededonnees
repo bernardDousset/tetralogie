@@ -1,0 +1,8 @@
+CT:
+# descripteurs des champ pour traiter les notices INTERNET (Multitermes) #
+# nom        abrev   champ   visible      Separateurs  # 
+Auteur        AU    CT:      True    ,"ORD1"
+Annee         An    CT:      True    ,"ORD2"
+Journal       JO    CT:      True    ,"ORD0"
+Journal       Jo    CT:      True    ,"ORD0"
+FIN           FIN   FIN      FIN     "
